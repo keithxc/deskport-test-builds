@@ -1,0 +1,36 @@
+{
+  "testBuildID": "test-20261018-020703-50431b29-windows",
+  "version": "0.7.2",
+  "platform": "windows-x64",
+  "sourceRevision": "50431b296a5b21c9d41551709d62c6fcafbf98f7",
+  "coreRevision": "f34fc7b1524ce436185c4b085a903e6af4314790",
+  "trackedSourceDiffSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "clientSHA256": "62b07d8a1a2a11d54e0beecf0fb7df71ecb201350e6a5c582547527a1f63ea04",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.2-windows-x64-portable-full-test-20261018-020703-50431b29-windows.zip",
+      "bytes": 56203205,
+      "sha256": "75c62bdc282ae5a7d7b92c6992e3441221ec69f2bb7e60e559a0fdb7455393c0"
+    },
+    {
+      "name": "DeskPort-0.7.2-windows-x64-setup-full-test-20261018-020703-50431b29-windows.exe",
+      "bytes": 41134286,
+      "sha256": "ef70456f1b30235be7d42cfd1b425d880bdd3cda21928f2e922175519b4473fa"
+    },
+    {
+      "name": "relink-materials-test-20261018-020703-50431b29-windows.tar.gz",
+      "bytes": 776635448,
+      "sha256": "56ffc156e65f34948be0dc4d7cd89a5dafffe0942e4ce15fe28b3a6ba6ecc262"
+    },
+    {
+      "name": "source-inputs-test-20261018-020703-50431b29-windows.json",
+      "bytes": 2887,
+      "sha256": "2dba8b5043048a7411bcec2e9743690fb6a46335070384b8e29d556970f7c51c"
+    },
+    {
+      "name": "source-materials-test-20261018-020703-50431b29-windows.tar.gz",
+      "bytes": 1416734746,
+      "sha256": "1deff19835994f6b2f97aa579d44e00c2f9c7bb952b5429feb25c63a5cf1c4b6"
+    }
+  ]
+}

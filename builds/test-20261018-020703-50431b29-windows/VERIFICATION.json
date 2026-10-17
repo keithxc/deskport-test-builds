@@ -1,0 +1,13 @@
+{
+  "sourceCheckout": "clean pinned recursive clone",
+  "packageAudit": "passed: x64 PE metadata/imports, installer/uninstaller extraction, portable payload match",
+  "nativeCLI": "passed: --version, -v, --help, -h",
+  "defenderScan": {
+    "setup": "passed",
+    "installedPayload": "passed",
+    "realTimeProtection": true,
+    "matchingThreats": 0
+  },
+  "sourceAndRelinkMaterials": "included; archive members reviewed; mobile payloads excluded",
+  "nativeVisualInputTakeoverAcceptance": "pending separate hardware verification"
+}
