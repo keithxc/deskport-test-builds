@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "name": "DeskPort-0.7.3-source-test-20261020-002316-26cb8e72.tar.gz",
+      "sha256": "536c4aa95f75f3e6c9ba2389459f79355260227f1455883a14a0f05a32d59eec",
+      "size": 132391813
+    },
+    {
+      "name": "DeskPort-0.7.3-windows-x64-portable-full-test-20261020-002316-26cb8e72.zip",
+      "sha256": "0806b62a6372000c16d5e3723dba8da1e75fd54a7ac78095e43b35b6a8b4293b",
+      "size": 56206038
+    },
+    {
+      "name": "DeskPort-0.7.3-windows-x64-setup-full-test-20261020-002316-26cb8e72.exe",
+      "sha256": "f350c66e58b61e303c092e973e5cb900c16ce3fab5ab5312d51db9e02b85b5c9",
+      "size": 41142966
+    },
+    {
+      "name": "DeskPort-core-f34fc7b-source.tar.gz",
+      "sha256": "62e943dcb8ff3eb73779a8057cd8d1d06e32a5d0bb468c8568c414e1296e3ae1",
+      "size": 933908
+    }
+  ],
+  "coreRevision": "f34fc7b1524ce436185c4b085a903e6af4314790",
+  "dependencySourcesUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/source-materials-0.7.3.tar.gz",
+  "desktopSourceRevision": "26cb8e72037c4be23986250d92bb6b79692f2afc",
+  "linuxX86_64NixOutput": "/nix/store/pwqxm6ynwwcm3mrzpgdvfrby9ix7gj95-deskport-0.7.3",
+  "macOS": {
+    "status": "pending-notarization"
+  },
+  "relinkMaterialsUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/relink-materials-0.7.3.tar.gz",
+  "schemaVersion": 1,
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/26cb8e72037c4be23986250d92bb6b79692f2afc.tar.gz",
+  "sourceNarHash": "sha256-yIyghCs6TeXczutr8doPoNyPQHvipIM+DAda7JiWXgs=",
+  "testId": "test-20261020-002316-26cb8e72",
+  "version": "0.7.3"
+}
