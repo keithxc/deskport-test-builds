@@ -1,9 +1,24 @@
 {
   "assets": [
     {
+      "name": "DeskPort-0.7.3-macos-arm64-test-20261021-112313-03925efa.zip",
+      "sha256": "a4fa03a170451befa5e3715fd71ed2ddac9c3d3df9c4a501c6cfd7409fa5b40f",
+      "size": 95850562
+    },
+    {
       "name": "DeskPort-0.7.3-source-test-20261021-112313-03925efa.tar.gz",
       "sha256": "626107c764df8562c37b553614cde5eb2b9f2f7faaaee91dc6adfd8d64351b65",
       "size": 133010776
+    },
+    {
+      "name": "DeskPort-0.7.3-windows-x64-portable-full-test-20261021-112313-03925efa.zip",
+      "sha256": "514da2830743eb5c8fe822c1b1c8ba0545c9ef6d29c212ab5484f4b27ec7a668",
+      "size": 56206885
+    },
+    {
+      "name": "DeskPort-0.7.3-windows-x64-setup-full-test-20261021-112313-03925efa.exe",
+      "sha256": "5947145de410668b4ae350df8262bb7930de38f6b3ca73a974b96d00e2866859",
+      "size": 41141118
     },
     {
       "name": "DeskPort-core-f34fc7b-source.tar.gz",
@@ -11,14 +26,41 @@
       "size": 933908
     }
   ],
+  "configurationPrechecks": {
+    "mm1": {
+      "status": "built",
+      "system": "/nix/store/xpnd2whqsfwdikqynw2dspk9x6saac3g-darwin-system-26.05.c3e90c8"
+    },
+    "mm4": {
+      "status": "built",
+      "system": "/nix/store/hk2279h8x3k2cpvdcgbhnfdwa9p1x8vk-darwin-system-26.05.c3e90c8"
+    },
+    "pk4": {
+      "status": "built",
+      "system": "/nix/store/qmclvbqskn0jj29m3frglia3p3dn2m69-nixos-system-pk4-26.05.20261018.8ce7336"
+    }
+  },
   "coreRevision": "f34fc7b1524ce436185c4b085a903e6af4314790",
+  "deliveryStage": "pendingHomePull",
   "dependencySourcesUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/source-materials-0.7.3.tar.gz",
   "desktopSourceRevision": "03925efa8749746a5203bcc3fd30a2fdb67eb11f",
   "linuxX86_64NixOutput": "/nix/store/r46k5685zvha3ximj2lf8ww985liqs52-deskport-0.7.3",
+  "macOS": {
+    "gatekeeperZipExtract": "passed",
+    "nixHash": "sha256-pPoDoXBFG++l43Ff1x7S3aycPT35xKUBxs/XQJ+ltA8=",
+    "nixPackageStorePath": "/nix/store/d9p115pb1afb68g0dcf64jv9ifqcwzrm-deskport-macos-signed-0.7.3-test-20261021-112313-03925efa",
+    "status": "notarized",
+    "zipSha256": "a4fa03a170451befa5e3715fd71ed2ddac9c3d3df9c4a501c6cfd7409fa5b40f"
+  },
   "relinkMaterialsUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/relink-materials-0.7.3.tar.gz",
   "schemaVersion": 1,
   "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/03925efa8749746a5203bcc3fd30a2fdb67eb11f.tar.gz",
   "sourceNarHash": "sha256-PGrkG3/CDSM6HhehLMTzV+UdkaxJhvOn6R6pbk6gIuk=",
   "testId": "test-20261021-112313-03925efa",
-  "version": "0.7.3"
+  "version": "0.7.3",
+  "windows": {
+    "buildIdOverlay": "test-20261021-112313-03925efa",
+    "packageAudit": "passed",
+    "setupAndPortablePayloadsMatch": "except portable.dat"
+  }
 }
