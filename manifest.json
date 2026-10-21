@@ -26,6 +26,31 @@
       "size": 933908
     }
   ],
+  "ci": {
+    "displayControlContracts": "success",
+    "linuxBuild": "success",
+    "windowsSourceChecks": "success"
+  },
+  "configurationBuilds": {
+    "mm1": {
+      "deskportPackage": "/nix/store/d9p115pb1afb68g0dcf64jv9ifqcwzrm-deskport-macos-signed-0.7.3-test-20261021-112313-03925efa",
+      "homeHead": "b137a297705e09f83435e4fa1bbea82fdc9fa0c2",
+      "status": "built",
+      "system": "/nix/store/xpnd2whqsfwdikqynw2dspk9x6saac3g-darwin-system-26.05.c3e90c8"
+    },
+    "mm4": {
+      "deskportPackage": "/nix/store/d9p115pb1afb68g0dcf64jv9ifqcwzrm-deskport-macos-signed-0.7.3-test-20261021-112313-03925efa",
+      "homeHead": "b137a297705e09f83435e4fa1bbea82fdc9fa0c2",
+      "status": "built",
+      "system": "/nix/store/hk2279h8x3k2cpvdcgbhnfdwa9p1x8vk-darwin-system-26.05.c3e90c8"
+    },
+    "pk4": {
+      "deskportPackage": "/nix/store/dac9g1fcb3sq2hq8cmawc164vipx0qm2-deskport-0.7.3",
+      "homeHead": "b137a297705e09f83435e4fa1bbea82fdc9fa0c2",
+      "status": "built",
+      "system": "/nix/store/l9fwz5f10igcklqjdsm35j37s341rfcf-nixos-system-pk4-26.05.20261018.8ce7336"
+    }
+  },
   "configurationPrechecks": {
     "mm1": {
       "status": "built",
@@ -41,7 +66,7 @@
     }
   },
   "coreRevision": "f34fc7b1524ce436185c4b085a903e6af4314790",
-  "deliveryStage": "pendingHomePull",
+  "deliveryStage": "homePrebuiltAwaitingManualSwitch",
   "dependencySourcesUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/source-materials-0.7.3.tar.gz",
   "desktopSourceRevision": "03925efa8749746a5203bcc3fd30a2fdb67eb11f",
   "linuxX86_64NixOutput": "/nix/store/r46k5685zvha3ximj2lf8ww985liqs52-deskport-0.7.3",
@@ -57,6 +82,11 @@
   "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/03925efa8749746a5203bcc3fd30a2fdb67eb11f.tar.gz",
   "sourceNarHash": "sha256-PGrkG3/CDSM6HhehLMTzV+UdkaxJhvOn6R6pbk6gIuk=",
   "testId": "test-20261021-112313-03925efa",
+  "uiChecks": {
+    "addCardHitAreas": "checked",
+    "syntheticUiPages": "27 passed",
+    "visibleRowMargins": "checked"
+  },
   "version": "0.7.3",
   "windows": {
     "buildIdOverlay": "test-20261021-112313-03925efa",
