@@ -26,13 +26,28 @@
       "size": 933908
     }
   ],
+  "configurationBuilds": {
+    "mm1": {
+      "status": "built",
+      "system": "/nix/store/fal18jx9ikx81k2angfkkhgihljy0gvg-darwin-system-26.05.c3e90c8"
+    },
+    "mm4": {
+      "status": "built",
+      "system": "/nix/store/dlblpbf5qdaw4ngl380y6ax4jhxbk0x6-darwin-system-26.05.c3e90c8"
+    },
+    "pk4": {
+      "status": "built",
+      "system": "/nix/store/7ryyyflj14wmij6af1q7c5kpcggw8p4q-nixos-system-pk4-26.05.20261018.8ce7336"
+    }
+  },
   "coreRevision": "f34fc7b1524ce436185c4b085a903e6af4314790",
   "dependencySourcesUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/source-materials-0.7.3.tar.gz",
   "desktopSourceRevision": "26cb8e72037c4be23986250d92bb6b79692f2afc",
-  "linuxX86_64NixOutput": "/nix/store/pwqxm6ynwwcm3mrzpgdvfrby9ix7gj95-deskport-0.7.3",
+  "linuxX86_64NixOutput": "/nix/store/a6yyky87yrkcf6phkl77x0k287gkadqf-deskport-0.7.3",
   "macOS": {
     "gatekeeperZipExtract": "passed",
     "nixHash": "sha256-skxftb/WNxG1ncGak3rD2ZwLIb4lYkHicK788Z+ag8I=",
+    "nixPackageStorePath": "/nix/store/p7sxfglnlcqkmd4a5i9h90l105516ld3-deskport-macos-signed-0.7.3-test-20261020-002316-26cb8e72",
     "status": "notarized",
     "zipSha256": "b24c5fb5bfd63711b59dc19a937ac3d99c0b21be256241e270aefcf19f9a83c2"
   },
