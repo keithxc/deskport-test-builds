@@ -1,6 +1,11 @@
 {
   "assets": [
     {
+      "name": "DeskPort-0.7.3-macos-arm64-test-20261020-002316-26cb8e72.zip",
+      "sha256": "b24c5fb5bfd63711b59dc19a937ac3d99c0b21be256241e270aefcf19f9a83c2",
+      "size": 95850483
+    },
+    {
       "name": "DeskPort-0.7.3-source-test-20261020-002316-26cb8e72.tar.gz",
       "sha256": "536c4aa95f75f3e6c9ba2389459f79355260227f1455883a14a0f05a32d59eec",
       "size": 132391813
@@ -26,7 +31,10 @@
   "desktopSourceRevision": "26cb8e72037c4be23986250d92bb6b79692f2afc",
   "linuxX86_64NixOutput": "/nix/store/pwqxm6ynwwcm3mrzpgdvfrby9ix7gj95-deskport-0.7.3",
   "macOS": {
-    "status": "pending-notarization"
+    "gatekeeperZipExtract": "passed",
+    "nixHash": "sha256-skxftb/WNxG1ncGak3rD2ZwLIb4lYkHicK788Z+ag8I=",
+    "status": "notarized",
+    "zipSha256": "b24c5fb5bfd63711b59dc19a937ac3d99c0b21be256241e270aefcf19f9a83c2"
   },
   "relinkMaterialsUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.3/relink-materials-0.7.3.tar.gz",
   "schemaVersion": 1,
