@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "testId": "test-20261024-010511-eedc5b28",
+  "version": "0.7.4",
+  "desktopSourceRevision": "eedc5b2884e80e26d3c94df6bc0a026ab3b1ba01",
+  "coreRevision": "e482f24563b2026693e284fbd8ca54eb420b7896",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/eedc5b2884e80e26d3c94df6bc0a026ab3b1ba01.tar.gz",
+  "sourceNarHash": "sha256-MHEDSso3mcqyMOZpv2cS2HKQCqE4rJaxdNPWEkxlU04=",
+  "coreNarHash": "sha256-ck3Fl+Hopz87ZV9u0LSnY1K76LPx8mhCb0hzvcd3xlc=",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "separateSourceArchivesUploaded": false,
+  "assets": [
+    {
+      "name": "DeskPort-0.7.4-macos-arm64.dmg",
+      "size": 137163446,
+      "sha256": "6a86186b1cbb1413ff454c4e18845c8fa1d90e51ed02fff4e469a1336aff36d2"
+    },
+    {
+      "name": "DeskPort-0.7.4-macos-arm64.zip",
+      "size": 95877177,
+      "sha256": "07696f6ed3cc8ac778af7e9e5c6394e4bfa11c41c4b40759512221096789678b"
+    },
+    {
+      "name": "DeskPort-0.7.4-macos-build.json",
+      "size": 780,
+      "sha256": "1421d55a464ac27a898088ac93307b1d94ed0c942594e27bc1c103a97eb546e9"
+    },
+    {
+      "name": "SHA256SUMS-macos.txt",
+      "size": 292,
+      "sha256": "15b217a38a9a2375710ff2b6718f16e91e9da8dfbd3c3e8673af786576d21cc5"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "testBuildIdEmbedded": true,
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "gatekeeperZipExtract": "passed",
+    "bundledSunshineLoaderSmoke": "passed",
+    "nixConsumerSignatureAndGatekeeper": "passed",
+    "zipNixHash": "sha256-B2lvbtPMisd4r36eXGOU5L+hHEHEtAdZUSIhCWeJZ4s="
+  },
+  "linux": {
+    "status": "built",
+    "isolatedSmoke": "passed",
+    "output": "/nix/store/y3iz9x47agwyw6dipprn5j8pc1yd2q1p-deskport-0.7.4",
+    "derivation": "/nix/store/0faykg113agbbzry24j4rsfxpsn4ynxm-deskport-0.7.4.drv",
+    "outputNarHash": "sha256-Ljvv2nSVXOD20ea+JRt74dwhaJiwZcRars09bRpKIAg=",
+    "architecture": "x86_64",
+    "method": "Native Nix build from the pinned public archive through the mynix DeskPort consumer"
+  },
+  "acceptance": {
+    "buildAndPackaging": "passed",
+    "activation": "manual",
+    "physicalStreamingAndInput": "pending"
+  },
+  "previousTestId": "test-20261023-021012-c6dbcee8"
+}
