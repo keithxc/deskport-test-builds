@@ -1,0 +1,5 @@
+d90ca695ec386ed2dc60af15dc8586968f47ee74cb83b2aa8db01b612a68a4fb  DeskPort-0.7.3-macos-arm64.dmg
+2908b3ad581d277d2d5c7c3e8711263a4d64f4f07fecc83bc238d2c6942a613a  DeskPort-0.7.3-macos-arm64.zip
+6e8dda39bedc4810fe7c3a22818e4c405b5de2a8afb13c69aa94da07e6e397c9  DeskPort-0.7.3-macos-build.json
+b0e2d68c8b1f7712506740fdd4d6d7965b8bc797c17e1cf05ac024a1dc63624e  SHA256SUMS-macos.txt
+556184b8f54a47e0bab8514a80e59b6e2e39793f624cf358cbc9a5b7eeb1c10d  manifest.json

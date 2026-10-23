@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "testId": "test-20261023-021012-c6dbcee8",
+  "version": "0.7.3",
+  "desktopSourceRevision": "c6dbcee8a27b55b38382638b261d3ac33e193c3a",
+  "coreRevision": "f34fc7b1524ce436185c4b085a903e6af4314790",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/c6dbcee8a27b55b38382638b261d3ac33e193c3a.tar.gz",
+  "sourceNarHash": "sha256-COvoYMjdIFsf5wGUFvykItH1+xfmGS/XBYzXUCI1xrc=",
+  "coreNarHash": "sha256-qqUQ3SHbgKuwKdwgU44qmycvz09rOf0uF9z/Wrmo870=",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "separateSourceArchivesUploaded": false,
+  "assets": [
+    {
+      "name": "DeskPort-0.7.3-macos-arm64.dmg",
+      "size": 134785048,
+      "sha256": "d90ca695ec386ed2dc60af15dc8586968f47ee74cb83b2aa8db01b612a68a4fb"
+    },
+    {
+      "name": "DeskPort-0.7.3-macos-arm64.zip",
+      "size": 95850829,
+      "sha256": "2908b3ad581d277d2d5c7c3e8711263a4d64f4f07fecc83bc238d2c6942a613a"
+    },
+    {
+      "name": "DeskPort-0.7.3-macos-build.json",
+      "size": 758,
+      "sha256": "6e8dda39bedc4810fe7c3a22818e4c405b5de2a8afb13c69aa94da07e6e397c9"
+    },
+    {
+      "name": "SHA256SUMS-macos.txt",
+      "size": 292,
+      "sha256": "b0e2d68c8b1f7712506740fdd4d6d7965b8bc797c17e1cf05ac024a1dc63624e"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "testBuildIdEmbedded": true,
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "gatekeeperZipExtract": "passed",
+    "bundledSunshineLoaderSmoke": "passed",
+    "nixConsumerSignatureAndGatekeeper": "passed",
+    "zipNixHash": "sha256-KQizrVgdJ30tXHw+hxEmOk1k9PB/7Mg7wjjSxpQqYTo="
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "method": "Native Nix build from the pinned public archive through the mynix DeskPort consumer",
+    "status": "built",
+    "isolatedSmoke": "passed",
+    "output": "/nix/store/vkjxrpi9lmpnqm99m4l206f709i2r0xi-deskport-0.7.3",
+    "derivation": "/nix/store/2isv6icnixgq28p76w4l5yl859c7vw1n-deskport-0.7.3.drv",
+    "outputNarHash": "sha256-enbp5MVG7+6ro2J2jYL1fbqK7Mb5oC01V+Ktq34qNlI="
+  },
+  "acceptance": {
+    "buildAndPackaging": "passed",
+    "activation": "manual",
+    "physicalStreamingAndInput": "pending"
+  },
+  "previousTestId": "test-20261021-112313-03925efa"
+}
