@@ -1,67 +1,96 @@
 {
   "schemaVersion": 2,
-  "testId": "test-20261024-051742-bd28a11d",
+  "testId": "test-20261025-canvas-1cb38bb0",
   "version": "0.7.4",
-  "desktopSourceRevision": "bd28a11d4695d34c348bd9694a3c15f883f8fff2",
-  "coreRevision": "b12d33c8811be6ee96efd45a0aeb14f775903ca1",
-  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/bd28a11d4695d34c348bd9694a3c15f883f8fff2.tar.gz",
-  "sourceNarHash": "sha256-qYRclI/uvNJOe6GTJGBdeEiletefwA2Yb8KffEzm8mU=",
-  "coreNarHash": "sha256-fpmi+GxeBqreXGtxSTLkgXTmRS6GGymG3aCfUPGud7k=",
+  "desktopSourceRevision": "1cb38bb0eb881ad54d7e694eaa40e21fec2d1ef2",
+  "coreRevision": "505ae0ccd0a4ead4decb6eaba62585bf278e6dbe",
   "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/1cb38bb0eb881ad54d7e694eaa40e21fec2d1ef2.tar.gz",
+  "sourceNarHash": "sha256-ZBFaEBGCA4Np0A4t1k/+01UaZadswcS6jHSBkHWgvAY=",
+  "coreNarHash": "sha256-EhwyMG8jNekRRDHLrZGOOX9vFEQCjx3mUq0QcmXzKlI=",
   "separateSourceArchivesUploaded": false,
   "assets": [
     {
       "name": "DeskPort-0.7.4-macos-arm64.dmg",
-      "size": 138593035,
-      "sha256": "aa8bbc84e39a72042d045d27b6a947ed030dde482a2ce632a6ab0481f265d67f"
+      "size": 136795228,
+      "sha256": "c652b60e1555f3b026e87f19a52c98b18f12ff426060f7f47b7f8da7cfd0f871"
     },
     {
       "name": "DeskPort-0.7.4-macos-arm64.zip",
-      "size": 95903650,
-      "sha256": "b02aad88d855ab83ff16f8a884d2b349aaed0dcb232a25de015afe8e02f198e8"
+      "size": 95996394,
+      "sha256": "5840453181575b9be2807bd98c65f939811714c8cb51c481a928768af6dcb89e"
     },
     {
       "name": "DeskPort-0.7.4-macos-build.json",
       "size": 780,
-      "sha256": "e4414bdc4e31d7cc54a47ab257b3805c1d2470e6043a0b00332c692c3aef9b42"
+      "sha256": "d8835f3a128989a703f577ddd7b47bcc0f540eaa03ca0176c49807ef4d513fd1"
     },
     {
       "name": "SHA256SUMS-macos.txt",
       "size": 292,
-      "sha256": "bec186f908f63a58d47cdbb0c22b4873ff4db49093d50bd50460401cbf4441a2"
+      "sha256": "e6edece125b5a5d894642fa5f01dbb46f466c7d0a1e5d1b81a2ae50f1bd491f6"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-x64-portable-full-canvas-r1.zip",
+      "size": 56103958,
+      "sha256": "8a120a65d7726ef0578a50f62cba19af171f4c8eb93128275efd901c54ae374d"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-x64-setup-full-canvas-r1.exe",
+      "size": 41240324,
+      "sha256": "7731cbe8e6b1e5acef61a1d7137b16c489c49f0d8f0141a04c7fd7944940eb45"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-build-canvas-r1.json",
+      "size": 835,
+      "sha256": "d7e0f8320fef98befbb33ab59dfaa8970320591f80a35a46b4fc44a2ff3da5fe"
+    },
+    {
+      "name": "SHA256SUMS-windows-canvas-r1.txt",
+      "size": 349,
+      "sha256": "f9856d39d5b487189df7c7225bccd47a14a9806251822900e555ca42cf0695c6"
     }
   ],
   "macOS": {
     "architecture": "arm64",
     "status": "notarized",
-    "testBuildIdEmbedded": true,
     "developerIdSignatures": "passed",
     "appAndDmgTickets": "stapled-and-validated",
     "gatekeeperZipExtract": "passed",
-    "bundledSunshineLoaderSmoke": "passed",
     "nixConsumerSignatureAndGatekeeper": "passed",
-    "zipNixHash": "sha256-sCqtiNhVq4P/FviohNKzSartDcsjKiXeAVr+jgLxmOg="
+    "testBuildIdEmbedded": true,
+    "zipNixHash": "sha256-WEBFMYFXW5vigHvZjGX5OYEXFMjLUcSBqSh2ivbcuJ4=",
+    "nixConsumerNativeCanvas": "passed, 10 stages, exit 0"
+  },
+  "windows": {
+    "architecture": "x86_64",
+    "status": "packaged",
+    "setupAndPortablePayloadAudit": "passed",
+    "packagedClientNativeCanvas": "passed, 10 stages, exit 0",
+    "packagedClientSha256": "be09bc60be7a2c24ce7ada4e4ad83f159f21f504dc640c00088b244582c2e855"
   },
   "linux": {
-    "status": "built",
-    "isolatedSmoke": "passed",
-    "output": "/nix/store/az9ajcq2qfysp4bk8dar0ybv3mpqdsim-deskport-0.7.4",
-    "derivation": "/nix/store/ni79cidb81qn7hwlirp1bh510zmalac8-deskport-0.7.4.drv",
-    "outputNarHash": "sha256-YFdPzTrG+M87bp+iGPfftJPmPKx0CKxsptvNz2hSVDo=",
     "architecture": "x86_64",
-    "method": "Native Nix build from the pinned public archive through the mynix DeskPort consumer"
+    "status": "built",
+    "method": "Native Nix build from the pinned public archive",
+    "output": "/nix/store/47r2c70ik8s5rd7k8dxi71i99dwvy08p-deskport-0.7.4",
+    "derivation": "/nix/store/98d1gnzbcgrbcn2ngjqib0sg4vlz3xqb-deskport-0.7.4.drv",
+    "outputNarHash": "sha256-ckOYoyltTIqU3lkup4WsPAyNNzVAI8tZV1F/I2B7Mvk=",
+    "nativeCanvas": "passed, 10 stages, exit 0"
   },
   "regressions": {
-    "shortcutController": 24,
-    "waylandPrivateBus": 15,
-    "localPreferences": 8,
-    "sdlFallback": "passed",
-    "nativeMacAdapterCompile": "passed"
+    "encodedFramesAndQueues": "passed",
+    "realEncodedTransport": "passed",
+    "canvasPhysicalKeysAndFocusRelease": "passed",
+    "localTextComposition": "passed",
+    "workerControlCases": 9,
+    "managedCanvasUi": "passed",
+    "nativeCanvasScope": "One persistent root across 10 decoded stages, resize, session switch, live hide/minimize/recall and teardown."
   },
   "acceptance": {
-    "buildAndPackaging": "passed",
     "activation": "manual",
-    "physicalCustomShortcutStreamingAndInput": "pending"
+    "liveHostStreamingPhysicalInputAudioHdrAndLatency": "not established by isolated tests"
   },
-  "previousTestId": "test-20261024-010511-eedc5b28"
+  "mynixRevision": "e6b8a3ee9b9e6d69d45de36a7f03d496101c9667",
+  "previousTestId": "test-20261024-142116-14a53a91"
 }

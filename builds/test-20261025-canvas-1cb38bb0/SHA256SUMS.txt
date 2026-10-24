@@ -1,0 +1,9 @@
+c652b60e1555f3b026e87f19a52c98b18f12ff426060f7f47b7f8da7cfd0f871  DeskPort-0.7.4-macos-arm64.dmg
+5840453181575b9be2807bd98c65f939811714c8cb51c481a928768af6dcb89e  DeskPort-0.7.4-macos-arm64.zip
+d8835f3a128989a703f577ddd7b47bcc0f540eaa03ca0176c49807ef4d513fd1  DeskPort-0.7.4-macos-build.json
+e6edece125b5a5d894642fa5f01dbb46f466c7d0a1e5d1b81a2ae50f1bd491f6  SHA256SUMS-macos.txt
+8a120a65d7726ef0578a50f62cba19af171f4c8eb93128275efd901c54ae374d  DeskPort-0.7.4-windows-x64-portable-full-canvas-r1.zip
+7731cbe8e6b1e5acef61a1d7137b16c489c49f0d8f0141a04c7fd7944940eb45  DeskPort-0.7.4-windows-x64-setup-full-canvas-r1.exe
+d7e0f8320fef98befbb33ab59dfaa8970320591f80a35a46b4fc44a2ff3da5fe  DeskPort-0.7.4-windows-build-canvas-r1.json
+f9856d39d5b487189df7c7225bccd47a14a9806251822900e555ca42cf0695c6  SHA256SUMS-windows-canvas-r1.txt
+23bb3a7ea8dedd2bceb2f2d1905e97ef7f15247c58408e382b92edb82e5669d1  manifest.json
