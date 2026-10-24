@@ -1,0 +1,3 @@
+aa8bbc84e39a72042d045d27b6a947ed030dde482a2ce632a6ab0481f265d67f  DeskPort-0.7.4-macos-arm64.dmg
+b02aad88d855ab83ff16f8a884d2b349aaed0dcb232a25de015afe8e02f198e8  DeskPort-0.7.4-macos-arm64.zip
+e4414bdc4e31d7cc54a47ab257b3805c1d2470e6043a0b00332c692c3aef9b42  DeskPort-0.7.4-macos-build.json
