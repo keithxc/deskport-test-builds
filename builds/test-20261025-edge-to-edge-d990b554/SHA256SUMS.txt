@@ -1,0 +1,9 @@
+7263f48742368d27ba10852bd0211b054c14c653483a89c14bcceb373ddf8cc4  DeskPort-0.7.4-macos-arm64.dmg
+42d9c82f34e243c03ecbe1834b3693393de31712c73f837f028386be56d873a6  DeskPort-0.7.4-macos-arm64.zip
+e81950b7013c5030e4c979fe8fd3e288d488c3c55c2fa3a9bc9deb129a11ed7f  DeskPort-0.7.4-macos-build.json
+c0bc653ca733b969216b594a7382499df10a432d6c9c1ddc60de73698743ba4c  DeskPort-0.7.4-windows-build-edge-to-edge.json
+c8ce518e4887fe0d563b5dde1c829f67a7fde7632ce513ef06c29fb1429e5a36  DeskPort-0.7.4-windows-x64-portable-full-edge-to-edge.zip
+f8b81f358e40828d6cf37a299a555c36c1405b0d30a9b438e469fc4f143164fc  DeskPort-0.7.4-windows-x64-setup-full-edge-to-edge.exe
+2fbf1c6b6fc3540c2e57d00cff7833e987cd878e0ef48aefaaf72503f3f3b440  SHA256SUMS-macos.txt
+114cc4d1f7489cd9f5d9ce1937d345de801f7e234f0b5f46e222fb3053128350  SHA256SUMS-windows-edge-to-edge.txt
+64aa87101a3abf8822fabf799bc42f3a0a265db84bc755a51d5d8dcc0f77afd0  manifest.json
