@@ -1,0 +1,9 @@
+ee80ab1633861d95431037ddd9cb9115ad947b270cba7039ac74095a347a2a7a  DeskPort-0.7.4-macos-arm64.dmg
+fb13e35e65b34d6c12d958bfb9b7b040466b567711dff430c3b64f49f407afb8  DeskPort-0.7.4-macos-arm64.zip
+b51ecc25a807d959b2ddacbf886c58d0c3106daef0f15f9f527c8a3d39f6fd6c  DeskPort-0.7.4-macos-build.json
+3f958280511b14a4878fc088ecc56167e12007456bfb6c4b78698362720b708a  DeskPort-0.7.4-windows-build-window-state.json
+c7fb9c1966fbbf411c48d9ca462814bc9b059bdee99f65c9692dc73863af685f  DeskPort-0.7.4-windows-x64-portable-full-window-state.zip
+0817c1440d130fb2b9f8ec9bea6fde15191036aae3600c470be5f67dfdddbdd2  DeskPort-0.7.4-windows-x64-setup-full-window-state.exe
+462e5df41cc9ec895f198b2064541ac03e06456b55a5cb2dea556bd30697811c  SHA256SUMS-macos.txt
+330b647d1fbc5599125d058c37f460c72b97566a98ce999ea0b9bdb35adf86e1  SHA256SUMS-windows-window-state.txt
+e0dab832506ad900e4e407e1be792c2a972a25d922d6504e7bb80fcaf4a121fe  manifest.json

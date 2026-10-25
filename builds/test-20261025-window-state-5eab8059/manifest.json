@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 2,
+  "testId": "test-20261025-window-state-5eab8059",
+  "version": "0.7.4",
+  "desktopSourceRevision": "5eab8059ad7e8e507e977a4bcaf35867a2fad15a",
+  "coreRevision": "505ae0ccd0a4ead4decb6eaba62585bf278e6dbe",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/5eab8059ad7e8e507e977a4bcaf35867a2fad15a.tar.gz",
+  "sourceNarHash": "sha256-ObmdQZD37tba42VSf9djcdLQTRyxs+n7QiGzS+VE72s=",
+  "coreNarHash": "sha256-EhwyMG8jNekRRDHLrZGOOX9vFEQCjx3mUq0QcmXzKlI=",
+  "separateSourceArchivesUploaded": false,
+  "assets": [
+    {
+      "name": "DeskPort-0.7.4-macos-arm64.dmg",
+      "size": 138440655,
+      "sha256": "ee80ab1633861d95431037ddd9cb9115ad947b270cba7039ac74095a347a2a7a"
+    },
+    {
+      "name": "DeskPort-0.7.4-macos-arm64.zip",
+      "size": 96000076,
+      "sha256": "fb13e35e65b34d6c12d958bfb9b7b040466b567711dff430c3b64f49f407afb8"
+    },
+    {
+      "name": "DeskPort-0.7.4-macos-build.json",
+      "size": 780,
+      "sha256": "b51ecc25a807d959b2ddacbf886c58d0c3106daef0f15f9f527c8a3d39f6fd6c"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-build-window-state.json",
+      "size": 844,
+      "sha256": "3f958280511b14a4878fc088ecc56167e12007456bfb6c4b78698362720b708a"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-x64-portable-full-window-state.zip",
+      "size": 56102119,
+      "sha256": "c7fb9c1966fbbf411c48d9ca462814bc9b059bdee99f65c9692dc73863af685f"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-x64-setup-full-window-state.exe",
+      "size": 41251264,
+      "sha256": "0817c1440d130fb2b9f8ec9bea6fde15191036aae3600c470be5f67dfdddbdd2"
+    },
+    {
+      "name": "SHA256SUMS-macos.txt",
+      "size": 292,
+      "sha256": "462e5df41cc9ec895f198b2064541ac03e06456b55a5cb2dea556bd30697811c"
+    },
+    {
+      "name": "SHA256SUMS-windows-window-state.txt",
+      "size": 358,
+      "sha256": "330b647d1fbc5599125d058c37f460c72b97566a98ce999ea0b9bdb35adf86e1"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "gatekeeperZipExtract": "passed",
+    "nixConsumerSignatureAndGatekeeper": "passed",
+    "testBuildIdEmbedded": true,
+    "zipNixHash": "sha256-+xPjXmWzTWwS2Vi/ubewQEZrVncR3/Qww7ZPSfQHr7g=",
+    "packagedClientNativeCanvas": "passed, 16 stages, exit 0 on signed Nix consumer"
+  },
+  "windows": {
+    "architecture": "x86_64",
+    "status": "packaged",
+    "setupAndPortablePayloadAudit": "passed",
+    "packagedClientNativeCanvas": "passed, 16 stages, exit 0 on installed package",
+    "packagedClientSha256": "799ae8c3adb184e47ab7e65363ee8a6ef86e045e2aab0f1a32bd77cd159576ba"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "status": "built",
+    "method": "Native Nix build from the pinned public archive",
+    "output": "/nix/store/78cqpmbsys5ylhsml9728bn86zgvlq1x-deskport-0.7.4",
+    "derivation": "/nix/store/6vba0jlb603fvvjd8v37l32pwxnrjjpf-deskport-0.7.4.drv",
+    "outputNarHash": "sha256-e3YEGhnRyVLpnf6qSmPi15/nWCp3VtRSWjZ8pR7rWwk=",
+    "nativeCanvas": "passed, 16 stages, exit 0 on final mynix consumer with hardware VAAPI/Vulkan"
+  },
+  "regressions": {
+    "encodedFramesAndQueues": "passed",
+    "realEncodedTransport": "passed",
+    "canvasPhysicalKeysAndFocusRelease": "passed",
+    "localTextComposition": "passed",
+    "workerControlCases": 9,
+    "managedCanvasUi": "passed",
+    "nativeCanvasScope": "One persistent root across 16 decoded stages, resize, session switch, hide/minimize/recall, native fullscreen/maximize/restore and teardown; V-Sync enabled during window-state transitions.",
+    "lostKeyFrameRequestRetry": "passed, with throttle, overflow and decoder-error recovery",
+    "windowStateSessionManager": "passed, 10 tests",
+    "priorPipelineRegressionSource": "3f1f44cbc7635ae1bda6264f455f28dae3ddc667"
+  },
+  "acceptance": {
+    "activation": "manual for Nix consumers",
+    "priorLiveBaseline": "All six desktop directions verified on 3f1f44cb; this is not a claim that all six were repeated on the final revision.",
+    "finalLiveWindowStates": "macOS to Windows: maximize, connection, fullscreen, restore and fullscreen Devices recall passed. Windows to macOS: connection-time mouse resize, maximize, fullscreen and small window passed. Windows to Linux: maximized connection retained window identity and dimensions.",
+    "linuxNativeWindowStates": "Final source passed independent KWin session with hardware decoding/rendering; physical desktop maximize is constrained by an existing window-manager rule.",
+    "mouseResizeLimits": "macOS and Linux physical mouse-drag resize remain unverified; successful programmatic/native-fixture resize is recorded separately.",
+    "audioHdrLatencyLongDuration": "not accepted by these checks"
+  },
+  "mynixRevision": "bb394e7f2c36d5090e4395687202840e52348811",
+  "previousTestId": "test-20261025-canvas-recall-3f1f44cb",
+  "consumerPrebuilds": {
+    "aarch64-darwin": "passed complete system build",
+    "x86_64-linux": "passed complete system build"
+  }
+}
