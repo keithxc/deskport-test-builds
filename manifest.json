@@ -1,56 +1,56 @@
 {
   "schemaVersion": 2,
   "version": "0.7.4",
-  "coreRevision": "505ae0ccd0a4ead4decb6eaba62585bf278e6dbe",
+  "testId": "test-20261025-retained-canvas-8b20ede7",
+  "desktopSourceRevision": "8b20ede75791666055863f1c74e74d5695d14cf2",
   "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/8b20ede75791666055863f1c74e74d5695d14cf2.tar.gz",
+  "sourceNarHash": "sha256-rnxhqx74TfN8qJpUEjRvq27xACOqYT+0G38xSjPmlh8=",
+  "coreRevision": "505ae0ccd0a4ead4decb6eaba62585bf278e6dbe",
   "coreNarHash": "sha256-EhwyMG8jNekRRDHLrZGOOX9vFEQCjx3mUq0QcmXzKlI=",
+  "mynixRevision": "a4a82e12032c3d7e497808cde60e70571f9d7c0a",
+  "previousTestId": "test-20261025-edge-to-edge-d990b554",
   "separateSourceArchivesUploaded": false,
-  "testId": "test-20261025-edge-to-edge-d990b554",
-  "desktopSourceRevision": "d990b5546840416c33577b2144192ece5704af34",
-  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/d990b5546840416c33577b2144192ece5704af34.tar.gz",
-  "sourceNarHash": "sha256-ZLD7sZOj17PsWzmf5GOvXCgF7wsIag4VBA7Eav03DS0=",
-  "mynixRevision": "45753ab3c8da4cbdb7f5ca0540b4d4b1bd040d8e",
-  "previousTestId": "test-20261025-window-state-5eab8059",
   "assets": [
     {
-      "name": "DeskPort-0.7.4-macos-arm64.dmg",
-      "size": 136305092,
-      "sha256": "7263f48742368d27ba10852bd0211b054c14c653483a89c14bcceb373ddf8cc4"
+      "name": "DeskPort-0.7.4-macos-arm64-retained-canvas.dmg",
+      "size": 136373961,
+      "sha256": "e723def3ff1efaade8a8b138fecad8581dcd6102a909434fab8fce4c838cc8e1"
     },
     {
-      "name": "DeskPort-0.7.4-macos-arm64.zip",
-      "size": 96000663,
-      "sha256": "42d9c82f34e243c03ecbe1834b3693393de31712c73f837f028386be56d873a6"
+      "name": "DeskPort-0.7.4-macos-arm64-retained-canvas.zip",
+      "size": 96001887,
+      "sha256": "ea669cfccb48044cb83598f93fb2813c61c08dd36991ad3e9f5ec9e1e585b45d"
     },
     {
-      "name": "DeskPort-0.7.4-macos-build.json",
-      "size": 780,
-      "sha256": "e81950b7013c5030e4c979fe8fd3e288d488c3c55c2fa3a9bc9deb129a11ed7f"
+      "name": "DeskPort-0.7.4-macos-build-retained-canvas.json",
+      "size": 827,
+      "sha256": "48ca3d08273442f5c10006f0e25331ead983509c9d75fd88ea361db5c101409f"
     },
     {
-      "name": "DeskPort-0.7.4-windows-build-edge-to-edge.json",
-      "size": 844,
-      "sha256": "c0bc653ca733b969216b594a7382499df10a432d6c9c1ddc60de73698743ba4c"
+      "name": "DeskPort-0.7.4-windows-build-retained-canvas.json",
+      "size": 853,
+      "sha256": "f74d049cadce5ee44cd6aaa40487447affe7283c5092b21d5b29a04d0eaf0e77"
     },
     {
-      "name": "DeskPort-0.7.4-windows-x64-portable-full-edge-to-edge.zip",
-      "size": 56101127,
-      "sha256": "c8ce518e4887fe0d563b5dde1c829f67a7fde7632ce513ef06c29fb1429e5a36"
+      "name": "DeskPort-0.7.4-windows-x64-portable-full-retained-canvas.zip",
+      "size": 56102570,
+      "sha256": "c633e18c8bbbe2efc21170a8ec587f2930e5af103b96b9da601924adfce0d6e3"
     },
     {
-      "name": "DeskPort-0.7.4-windows-x64-setup-full-edge-to-edge.exe",
-      "size": 41253320,
-      "sha256": "f8b81f358e40828d6cf37a299a555c36c1405b0d30a9b438e469fc4f143164fc"
+      "name": "DeskPort-0.7.4-windows-x64-setup-full-retained-canvas.exe",
+      "size": 41252705,
+      "sha256": "43a7e1290159173abeabd8eea36d7a38eda7abad87f6162c4538f4d136dc3adc"
     },
     {
-      "name": "SHA256SUMS-macos.txt",
-      "size": 292,
-      "sha256": "2fbf1c6b6fc3540c2e57d00cff7833e987cd878e0ef48aefaaf72503f3f3b440"
+      "name": "SHA256SUMS-macos-retained-canvas.txt",
+      "size": 340,
+      "sha256": "a3597ca6fbeaa643d8baa6984eaa81d2e07822c1ba9a89cdc8144a26f894f824"
     },
     {
-      "name": "SHA256SUMS-windows-edge-to-edge.txt",
-      "size": 358,
-      "sha256": "114cc4d1f7489cd9f5d9ce1937d345de801f7e234f0b5f46e222fb3053128350"
+      "name": "SHA256SUMS-windows-retained-canvas.txt",
+      "size": 367,
+      "sha256": "d665bf9ab1d201f8a6ff95c759bb2aff08d3d71155860291294adbb84f03bda2"
     }
   ],
   "macOS": {
@@ -61,39 +61,37 @@
     "gatekeeperZipExtract": "passed",
     "nixConsumerSignatureAndGatekeeper": "passed",
     "testBuildIdEmbedded": true,
-    "zipNixHash": "sha256-QtnILzTiQ8A+y+GDSzaTOT3jFxLHP4N/AoOGvlbYc6Y=",
-    "packagedClientNativeCanvas": "passed, 16 stages, exit 0 on signed Nix consumer"
+    "zipNixHash": "sha256-6mac/MtIBEy4NZj5P7KBPGHAjdNpka0+n17J4eWFtF0=",
+    "packagedClientNativeCanvas": "passed, 16 stages on signed final Nix consumer"
   },
   "windows": {
     "architecture": "x86_64",
     "status": "packaged",
     "setupAndPortablePayloadAudit": "passed",
-    "packagedClientNativeCanvas": "passed, 16 stages, exit 0 on installed package",
-    "packagedClientSha256": "0948b7e5768648d08b142c5ba0e1cef8d5e7534cc8910c11c7b9c90170e8fbb6"
+    "packagedClientNativeCanvas": "passed, 16 stages on installed final package",
+    "packagedClientSha256": "b3ae048b4537b7f03edd8822a1747159ce909fcbb7e33e954b5e611f82ed1314"
   },
   "linux": {
     "architecture": "x86_64",
     "status": "built",
     "method": "Native Nix build from the pinned public archive",
-    "output": "/nix/store/r0b07amrg1j7x8pkjvypp5qync6hgr3f-deskport-0.7.4",
-    "derivation": "/nix/store/a8b3xrmfl4i5nm3m6x6dbxrcy2x8x67l-deskport-0.7.4.drv",
-    "outputNarHash": "sha256-s5y6d1YrWINbN1eOoOCivNOfexvrwMXdk7MfSjyiwYA=",
-    "nativeCanvas": "passed, 16 stages, exit 0 on final mynix consumer with hardware VAAPI/Vulkan"
+    "output": "/nix/store/462cbzk345p78vqw3scl4y69xc1zgsc1-deskport-0.7.4",
+    "derivation": "/nix/store/0z1f7fxprjb9mnbn2cz45qzyhcl1npkl-deskport-0.7.4.drv",
+    "outputNarHash": "sha256-hs0+JvTfN21Nk1YNNHm2juPhWNI22k25B4xSIE1+6SI=",
+    "nativeCanvas": "passed, 16 stages on final mynix consumer with hardware VAAPI/Vulkan"
   },
   "regressions": {
-    "managedCanvasUi": "passed: application navigation hidden, full content bounds through resize and confirmation, navigation restored on Devices",
-    "nativeCanvasScope": "Final packaged consumers on all three desktop platforms passed 16 decoded stages: one native root, resize, session switch, hide/minimize/recall, fullscreen/maximize/restore and decoder teardown.",
-    "macOSNativeChrome": "passed: unified Devices toolbar restored; normal system title bar remains outside the remote canvas; fullscreen hides it without replacing NSWindow.",
-    "pipelineBaseline": "test-20261025-window-state-5eab8059",
-    "mediaPipelineChanged": false
+    "qml": "31 passed",
+    "sessionManager": "10 passed",
+    "nativeCanvasScope": "All three final consumers: 16 stages covering retained native root, resize, session switch, hide/minimize/recall, fullscreen/maximize/restore and decoder teardown. Recall retains the decoder and ready frame even while new frames are withheld.",
+    "macOSChrome": "Native comparison reproduced prior outer-frame growth; fixed chrome transitions preserve window and canvas dimensions.",
+    "privacy": "passed"
   },
   "acceptance": {
     "activation": "manual for Nix consumers",
-    "finalLiveCanvas": "macOS to Windows, Linux to Windows, Windows to macOS and Windows to Linux: connection and video replace the application toolbar. Windows takeover confirmation also fills the content area.",
-    "finalLiveWindowStates": "macOS to Windows, Linux to Windows and Windows to macOS: fullscreen and windowed restore observed. Windows hide/recall restored Devices with the same native window handle and background session. Linux retained its native window identity.",
-    "interruptedWindowStateInterval": "A Windows-to-Linux resolution-change interval included manual user intervention and is excluded from automatic fullscreen streaming acceptance; it is not attributed to a client defect.",
-    "mouseResizeLimits": "Native fixtures verify resize on all platforms. Physical mouse-border resize was not revalidated successfully in this revision; earlier acceptance remains tied to its original revision.",
-    "priorLiveBaseline": "All six desktop directions verified on 3f1f44cb; this is not a claim that all six were repeated on the final revision.",
+    "liveRecall": "macOS to Windows: two cycles; Windows to Linux: two cycles; Linux to Windows: one cycle. Mouse Return to desktop restores video without a visible connection spinner, decoder restart or additional remote mode request.",
+    "devicesNavigation": "Windows uses physical mouse tray context-menu Open device list. macOS and Linux use native window close plus single-instance activation, followed by physical mouse Return to desktop.",
+    "windowStates": "Native final-package fixtures cover fullscreen, maximize and resize. Live border dragging and all six connection directions were not repeated for this correction.",
     "audioHdrLatencyLongDuration": "not accepted by these checks"
   },
   "consumerPrebuilds": {
