@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "testId": "test-20261025-canvas-recall-3f1f44cb",
+  "version": "0.7.4",
+  "desktopSourceRevision": "3f1f44cbc7635ae1bda6264f455f28dae3ddc667",
+  "coreRevision": "505ae0ccd0a4ead4decb6eaba62585bf278e6dbe",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/3f1f44cbc7635ae1bda6264f455f28dae3ddc667.tar.gz",
+  "sourceNarHash": "sha256-4eOdb8BVT52S8SyB+vb6VZ6u2bs3gX4NxzX56RRwxvU=",
+  "coreNarHash": "sha256-EhwyMG8jNekRRDHLrZGOOX9vFEQCjx3mUq0QcmXzKlI=",
+  "separateSourceArchivesUploaded": false,
+  "assets": [
+    {
+      "name": "DeskPort-0.7.4-macos-arm64.dmg",
+      "size": 135382115,
+      "sha256": "087048ce6365c8503f1d60ed42372199b9328d79fb505fec76f74489d2d08fc7"
+    },
+    {
+      "name": "DeskPort-0.7.4-macos-arm64.zip",
+      "size": 95996901,
+      "sha256": "08ed1809bea9f265a585394a577431f40db7373eb3154b4951a16926b298db7d"
+    },
+    {
+      "name": "DeskPort-0.7.4-macos-build.json",
+      "size": 780,
+      "sha256": "235408ae06884c5d5df6ed043f5b07f1f82144a309ecbb2f713e8f6116f427bc"
+    },
+    {
+      "name": "SHA256SUMS-macos.txt",
+      "size": 292,
+      "sha256": "c1d66706d3a5c329ad9754c0ffcbff08c612cb4b013e1ccf5dcc7b3a0faf4172"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-x64-portable-full-canvas-recall.zip",
+      "size": 56102439,
+      "sha256": "7c85066ad1077ec10f898ab87f1fe76f5705f8103a30631d39b608d816a239e6"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-x64-setup-full-canvas-recall.exe",
+      "size": 41251452,
+      "sha256": "73abf5d95d451794bb440071dd89bb2124c30fb372d40aa9bf2c400518086115"
+    },
+    {
+      "name": "DeskPort-0.7.4-windows-build-canvas-recall.json",
+      "size": 847,
+      "sha256": "6df59278da0b67bb7252c079b53098accbe4090e451aa3a20f7d812b01c2514e"
+    },
+    {
+      "name": "SHA256SUMS-windows-canvas-recall.txt",
+      "size": 361,
+      "sha256": "bab65626417b150906b8bb59e078e430e83de0350cc919dfc6c69cd8d3272cea"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "gatekeeperZipExtract": "passed",
+    "nixConsumerSignatureAndGatekeeper": "passed",
+    "testBuildIdEmbedded": true,
+    "zipNixHash": "sha256-CO0YCb6p8mWlhTlKV3Qx9A23Nz6zFUtJUaFpJrKY230=",
+    "packagedClientNativeCanvas": "passed, 10 stages, exit 0"
+  },
+  "windows": {
+    "architecture": "x86_64",
+    "status": "packaged",
+    "setupAndPortablePayloadAudit": "passed",
+    "packagedClientNativeCanvas": "passed, 10 stages, exit 0",
+    "packagedClientSha256": "b003301dee3a883f4947cb8874658ce05cf1b5f03f84dd607db0140879721b3b"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "status": "built",
+    "method": "Native Nix build from the pinned public archive",
+    "output": "/nix/store/plqaw7ji9jc87k0rqx59xskxn5dg6ic5-deskport-0.7.4",
+    "derivation": "/nix/store/z8mdlv3rp15mvgrpwj63qmldk16zvixz-deskport-0.7.4.drv",
+    "outputNarHash": "sha256-q65Rkf6zhpEy/VhZmCERbGLaB2eevRsBcXs0e7WFzx8=",
+    "nativeCanvas": "passed, 10 stages, exit 0"
+  },
+  "regressions": {
+    "encodedFramesAndQueues": "passed",
+    "realEncodedTransport": "passed",
+    "canvasPhysicalKeysAndFocusRelease": "passed",
+    "localTextComposition": "passed",
+    "workerControlCases": 9,
+    "managedCanvasUi": "passed",
+    "nativeCanvasScope": "One persistent root across 10 decoded stages, resize, session switch, live hide/minimize/recall and teardown.",
+    "lostKeyFrameRequestRetry": "passed, with throttle, overflow and decoder-error recovery"
+  },
+  "acceptance": {
+    "activation": "manual for Nix consumers",
+    "liveVideo": "All six directions between Windows, macOS and Linux verified on final source using live desktops",
+    "devicesRecall": "Windows, macOS and Linux retain their root window and resume video",
+    "simulatedMouse": "Remote connection and takeover confirmed using native mouse events",
+    "networkScope": "LAN IPv4; hostname routes encountered adaptive negotiation timeouts",
+    "audioHdrLatencyLongDuration": "not accepted by these checks",
+    "cycleGuard": "Reverse connection rejected while upstream session existed; connected after explicit disconnect"
+  },
+  "mynixRevision": "576b9fdc945c13da5d064b3d26184e90da01e9d3",
+  "previousTestId": "test-20261025-canvas-1cb38bb0",
+  "consumerPrebuilds": {
+    "aarch64-darwin": "passed complete system build",
+    "x86_64-linux": "passed complete system build"
+  }
+}
