@@ -1,0 +1,51 @@
+{
+  "repo": "keithxc/deskport-test-builds",
+  "tag": "test-20261028-155814-7d1bdf34",
+  "releaseId": 426899495,
+  "phase": "published",
+  "verification": "GitHub server SHA-256 and size",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.dmg",
+      "id": 685567998,
+      "size": 133957291,
+      "digest": "sha256:40985cf064ae0374c8444c09342bc2b2c7dab59123f75afa1d6347d81c595b3c",
+      "browser_download_url": "https://github.com/keithxc/deskport-test-builds/releases/download/untagged-64296f838442df137b1a/DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.dmg"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.zip",
+      "id": 685567969,
+      "size": 96072261,
+      "digest": "sha256:d8d0fce57e15bcd2925fb9cd5dc0cc74275e8a038c1627089437a02df99b078d",
+      "browser_download_url": "https://github.com/keithxc/deskport-test-builds/releases/download/untagged-64296f838442df137b1a/DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.zip"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-build-test-20261028-155814-7d1bdf34.json",
+      "id": 685567973,
+      "size": 869,
+      "digest": "sha256:61ea26aa293031fb99757a19a13064019b5649d1555b48d47a93bc20673e1e8f",
+      "browser_download_url": "https://github.com/keithxc/deskport-test-builds/releases/download/untagged-64296f838442df137b1a/DeskPort-0.7.6-macos-build-test-20261028-155814-7d1bdf34.json"
+    },
+    {
+      "name": "manifest-macos.json",
+      "id": 685567995,
+      "size": 8136,
+      "digest": "sha256:304b6fa83868363f34f59ad497cb3d84ec853c8d626355de646b4200d54f6269",
+      "browser_download_url": "https://github.com/keithxc/deskport-test-builds/releases/download/untagged-64296f838442df137b1a/manifest-macos.json"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261028-155814-7d1bdf34.txt",
+      "id": 685567965,
+      "size": 382,
+      "digest": "sha256:31e87fcc629a86f84423f1f34e27fbd0fc2dc8f9243f7b634e6079dafd015712",
+      "browser_download_url": "https://github.com/keithxc/deskport-test-builds/releases/download/untagged-64296f838442df137b1a/SHA256SUMS-macos-test-20261028-155814-7d1bdf34.txt"
+    }
+  ],
+  "releaseUrl": "https://github.com/keithxc/deskport-test-builds/releases/tag/test-20261028-155814-7d1bdf34",
+  "anonymousZipHead": "200",
+  "fullByteRedownload": false,
+  "consumerRevision": "e01a7ef2d16aa6f384b3483a097745521337c174",
+  "consumerNativePrebuild": {
+    "aarch64-darwin": "passed"
+  }
+}
