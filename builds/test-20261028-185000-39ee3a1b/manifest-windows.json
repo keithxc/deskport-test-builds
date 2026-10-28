@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261028-185000-39ee3a1b",
+  "platform": "windows-x64",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "39ee3a1b379deef465e2aa97e00bde35b1a89584",
+  "coreRevision": "27caf8317b959da9c240dd5f8843b319d7fa74b7",
+  "sourceDiffSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-windows-x64-portable-full-test-20261028-185000-39ee3a1b.zip",
+      "size": 56177212,
+      "sha256": "8b4858cd2937b38096d5d5c6e217fac37bd6e88e40bf1788ab05616d3d34614e"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-setup-full-test-20261028-185000-39ee3a1b.exe",
+      "size": 41319113,
+      "sha256": "86350319a1c38158638c85f5cbed87b982ca3c8cfe4c3341aa00ed971cb2fc0b"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-build-test-20261028-185000-39ee3a1b.json",
+      "size": 895,
+      "sha256": "44f798dabae68805eafd08e504e7790948a0d22693e6770d19a467df907bfb7c"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261028-185000-39ee3a1b.txt",
+      "size": 409,
+      "sha256": "fa92d64f960c568f31b9db3ce291b605aa8dfa1e56351b13e90d78d79ded7ef8"
+    }
+  ],
+  "verification": {
+    "source": "Clean, unchanged pinned source and core",
+    "package": "Full offline Setup and portable ZIP payloads match except portable.dat",
+    "binaries": "Installer, generated uninstaller, installer plugins and all eight x64 payload PEs audited; resource version 0.7.6 verified",
+    "identity": "Exact source revision in BUILD-INFO; immutable test ID in asset names and provenance",
+    "limitations": [
+      "Package auditing is distinct from physical streaming, input and latency acceptance."
+    ]
+  }
+}
