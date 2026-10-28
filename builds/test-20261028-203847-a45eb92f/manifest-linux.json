@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261028-203847-a45eb92f",
+  "platform": "linux-x86_64-nix",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "a45eb92fd449216d6968241843885adf9160ffbb",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/a45eb92fd449216d6968241843885adf9160ffbb.tar.gz",
+  "sourceNarHash": "sha256-bWjZB7wU2zjVJbPK1gPcTQYpR9iuKSFgiIz9tXgHbtQ=",
+  "coreRevision": "27caf8317b959da9c240dd5f8843b319d7fa74b7",
+  "coreNarHash": "sha256-6rBI4IoLltbn5OjEeK4PBAmM8D65HsmDEIK9tbvzvYI=",
+  "separateSourceArchivesUploaded": false,
+  "companionInstallerRelease": "https://github.com/keithxc/deskport-test-builds/releases/tag/test-20261028-185000-39ee3a1b",
+  "companionInstallerSourceRevision": "39ee3a1b379deef465e2aa97e00bde35b1a89584",
+  "mynixRevision": "2318856b17a197d8ff09212f4202d0b71a5d2ff5",
+  "linux": {
+    "status": "built-and-verified",
+    "method": "Pinned public source archive consumed by the existing mynix adapter",
+    "output": "/nix/store/8cj6gzc3sv6dhg54w4wiw0kybxac73ga-deskport-0.7.6",
+    "derivation": "/nix/store/r9aj6r994jwwsg7dah0z3iczsgqa5pig-deskport-0.7.6.drv",
+    "outputNarHash": "sha256-7VCQb+B44+PWyqQw7kHUfTI18Aqsl6igfMH3zbRHrnU=",
+    "consumerAdapter": "Applies CPU affinity and nice build limits to the client and Sunshine; source is unchanged.",
+    "systemClosureMembership": "passed",
+    "isolatedCliAndSidecarSmoke": "passed",
+    "managedLocalGitBuildAndSmoke": "passed; separate derivation from the archived-source consumer",
+    "binaryReleaseAssetUploaded": false
+  },
+  "regressions": {
+    "productionCodeValidatedRevision": "6030be9def8ed2f2fa15c7820061201363b80901",
+    "finalRevisionDifference": "Only marks native Wayland startup tests as skipped on offscreen Qt; production code is identical.",
+    "core": "passed",
+    "compiledTranslations": "passed",
+    "peerBinding": 183,
+    "host": 48,
+    "ui": 31,
+    "sessions": 12,
+    "canvas": 6,
+    "nativeKWinGeometryStages": 92,
+    "nativeFocusedStateCases": 13,
+    "nativeWorkerIpc": 3,
+    "nativeWindowFrame": 10,
+    "offscreenWindowFrame": {
+      "passed": 6,
+      "failed": 0,
+      "nativeOnlySkipped": 4
+    },
+    "isolatedResourcesRemoved": true
+  },
+  "consumerPrebuilds": {
+    "x86_64-linux": "complete system build passed",
+    "aarch64-darwin": "complete system build passed with unchanged signed companion package"
+  },
+  "acceptance": {
+    "activation": "Manual for Nix consumers; no switch performed.",
+    "nativeScope": "Isolated compositor frame/client geometry, repeated decoration changes, fullscreen/maximized restore, hidden-window state and worker input-release checks.",
+    "minimizeLimit": "Preserves acknowledged Qt state; compositor-side minimization was not asserted.",
+    "physicalStreamingInputLatency": "Not established by these automated checks."
+  }
+}
