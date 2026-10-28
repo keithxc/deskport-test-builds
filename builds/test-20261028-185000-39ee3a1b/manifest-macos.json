@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261028-185000-39ee3a1b",
+  "platform": "macos-arm64",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "39ee3a1b379deef465e2aa97e00bde35b1a89584",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/39ee3a1b379deef465e2aa97e00bde35b1a89584.tar.gz",
+  "sourceNarHash": "sha256-btoLdygLb/Pat7BOanLYnRJ+O/b9AXGfMksJL3zeCh8=",
+  "coreRevision": "27caf8317b959da9c240dd5f8843b319d7fa74b7",
+  "coreNarHash": "sha256-6rBI4IoLltbn5OjEeK4PBAmM8D65HsmDEIK9tbvzvYI=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-185000-39ee3a1b.dmg",
+      "size": 136406624,
+      "sha256": "e3a59625800212ffbb52b4f2b93c5baea451943224a5e5c3c51b5ace0e514968"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-185000-39ee3a1b.zip",
+      "size": 96063760,
+      "sha256": "73ac553b89eb3d21e2fdf699246e118b46667659308203639b265c70744fd47c"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-build-test-20261028-185000-39ee3a1b.json",
+      "size": 869,
+      "sha256": "b40cb1dea3ce63b419e239ea577a20e8f84176ddd126a5619aca41f460dadb44"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261028-185000-39ee3a1b.txt",
+      "size": 382,
+      "sha256": "7e2a5ca115c75d423a536cedba8fc270b1abc8df4a1ccff365a91e5456977281"
+    }
+  ],
+  "verification": {
+    "signatures": "Developer ID, all embedded code objects",
+    "notarization": "App and DMG accepted; tickets stapled and validated",
+    "zip": "Extracted ZIP passed Gatekeeper and isolated bundled host loader smoke",
+    "regressions": [
+      "UI: 31 passed",
+      "Host lifecycle: 35 passed; 13 Linux-specific cases skipped on macOS",
+      "Peer binding: full suite 182 passed plus 1 corrected case; targeted refusal/preparation rerun 18 passed",
+      "Canvas focus/input: 6 passed",
+      "Native macOS window event routing: 3 passed",
+      "Worker IPC input release/frame transitions: 3 passed",
+      "Window geometry and visibility: 5 passed",
+      "Core, preferences and compiled translation checks passed"
+    ],
+    "limitations": [
+      "Physical streaming and window movement require manual acceptance.",
+      "Linux native compositor verification and package preparation are deferred.",
+      "Windows package preparation is deferred."
+    ]
+  }
+}
