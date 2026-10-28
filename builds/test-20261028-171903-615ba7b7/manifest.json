@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261028-171903-615ba7b7",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "615ba7b7c7420ad59c8e8c22435240ed9f316c22",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/615ba7b7c7420ad59c8e8c22435240ed9f316c22.tar.gz",
+  "sourceNarHash": "sha256-1DeJeP+GX3q5+ChOXMa2a93ZhmFfUihbr9I1BASNLG4=",
+  "coreRevision": "3b9a2d0cf8fffb3f6a4b0312d0684090898bbc75",
+  "coreNarHash": "sha256-2FU8JERHAcfgdvmPBV5Fq+qgI1Y99y8wdz0tbzVXhkM=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-171903-615ba7b7.zip",
+      "size": 96043927,
+      "sha256": "61b32fcb5dee1610c261176e51abbdfba879084865f03a685996a49ec29bc0ce"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-171903-615ba7b7.dmg",
+      "size": 138005789,
+      "sha256": "2c0c95814416f2c90038077e8081fe0016fff5d0a79fa0829d73fcdd346b7336"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-build-test-20261028-171903-615ba7b7.json",
+      "size": 869,
+      "sha256": "5e1542b16622fe29edec860e0be9d590c14df4cf94b21b40603b763d04ef80f0"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261028-171903-615ba7b7.txt",
+      "size": 382,
+      "sha256": "8d5744958498a88fb6ad8fa646fe0b6f683a5bcd86d3f440c235578e495a7d42"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-setup-full-test-20261028-171903-615ba7b7.exe",
+      "size": 41304185,
+      "sha256": "07b3b862dd1b3cb198549d3438ee42940e365ae5dac1afa4e95dd095b6b12b02"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-portable-full-test-20261028-171903-615ba7b7.zip",
+      "size": 56150947,
+      "sha256": "1aeaac0619ec7bef36aa7031c8f294c2134c96aadebc7dcb05fbf20e6fae2c80"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-build-test-20261028-171903-615ba7b7.json",
+      "size": 895,
+      "sha256": "81b4321585d7ba3e3fbc032fb2fe632228eee466b1509340ec12ddfb3405fd2f"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261028-171903-615ba7b7.txt",
+      "size": 409,
+      "sha256": "5f96fac8cf10a25675a79bcfc6cc6096053379f12c63b74feff78a4e02454c75"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "gatekeeperZipExtract": "passed",
+    "testBuildIdEmbedded": true,
+    "zipNixHash": "sha256-YbMvy13uFhDCYRduUau9+6h5CEhl8DpoWZaknsKbwM4="
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "output": "/nix/store/r0da7qrqyfjqzy2h7vis8j54f6ivg8nl-deskport-0.7.6",
+    "outputNarHash": "sha256-XNRnlufSC4towxB9vRNcOJbPSeXNen7Tys0X5BsSMDk=",
+    "isolatedStartup": "passed"
+  },
+  "windows": {
+    "architecture": "x64",
+    "method": "Static MinGW cross build",
+    "status": "built",
+    "packageAudit": "passed: setup, uninstaller, extracted payload and plugin PEs; ZIP and installer payloads match except portable.dat"
+  },
+  "ci": [
+    {
+      "conclusion": "success",
+      "name": "Display control contracts",
+      "status": "completed",
+      "url": "https://github.com/keithxc/deskport/actions/runs/40663261121"
+    },
+    {
+      "conclusion": "success",
+      "name": "Linux build",
+      "status": "completed",
+      "url": "https://github.com/keithxc/deskport/actions/runs/40663261117"
+    },
+    {
+      "conclusion": "success",
+      "name": "Windows source checks",
+      "status": "completed",
+      "url": "https://github.com/keithxc/deskport/actions/runs/40663261204"
+    }
+  ],
+  "regressions": {
+    "videoResume": "RTP queue frame-index jumps and resume watchdog passed on Linux and macOS",
+    "hostVideoPause": "encoder pause overlay applied to both pinned host revisions",
+    "hiddenTitleBarSettings": "31 UI page checks passed on macOS; 21 translated catalogs covered",
+    "liveAcceptance": "Not performed: long background pause recovery and hidden title bar need installed live checks."
+  },
+  "separateSourceArchivesUploaded": false,
+  "activation": "Manual; package verification is separate from installed live acceptance."
+}
