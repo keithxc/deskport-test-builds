@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261028-155814-7d1bdf34",
+  "platform": "macos-arm64",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "7d1bdf3477b4227b3e5a002ed7941b4f6a93a2d4",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/7d1bdf3477b4227b3e5a002ed7941b4f6a93a2d4.tar.gz",
+  "sourceNarHash": "sha256-YmikN7UOKGCp6ut6xYUSWOeDcK3F/F050Zw/Tnn5pD0=",
+  "sourceLockSha256": "d4c78750c268625cdcb8d48aaa727a68623f1ff2cf50c1433397701bdcb72982",
+  "coreRepository": "https://github.com/keithxc/deskport-core",
+  "coreRevision": "866c09547cd47d4b26a0725374e70614cf2845db",
+  "coreNarHash": "sha256-nEVg/YLzfDRbJGfMOa9hbx6USwpAsIBo3t8wKPlL6EQ=",
+  "separateSourceArchivesUploaded": false,
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.dmg",
+      "sha256": "40985cf064ae0374c8444c09342bc2b2c7dab59123f75afa1d6347d81c595b3c",
+      "size": 133957291,
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261028-155814-7d1bdf34/DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.dmg",
+      "nixHash": "sha256-QJhc8GSuA3TIREwJNCvCssfatZEj91r6HWNH2BxZWzw="
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.zip",
+      "sha256": "d8d0fce57e15bcd2925fb9cd5dc0cc74275e8a038c1627089437a02df99b078d",
+      "size": 96072261,
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261028-155814-7d1bdf34/DeskPort-0.7.6-macos-arm64-test-20261028-155814-7d1bdf34.zip",
+      "nixHash": "sha256-2ND85X4VvNKSX7nNXcDMdCdeigOMFicIlDegLfmbB40="
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-build-test-20261028-155814-7d1bdf34.json",
+      "sha256": "61ea26aa293031fb99757a19a13064019b5649d1555b48d47a93bc20673e1e8f",
+      "size": 869,
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261028-155814-7d1bdf34/DeskPort-0.7.6-macos-build-test-20261028-155814-7d1bdf34.json",
+      "nixHash": "sha256-YeomqikwMfuZdXoZoTBkAZtWSdFVW0jUepO8IGc+Ho8="
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261028-155814-7d1bdf34.txt",
+      "sha256": "31e87fcc629a86f84423f1f34e27fbd0fc2dc8f9243f7b634e6079dafd015712",
+      "size": 382,
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261028-155814-7d1bdf34/SHA256SUMS-macos-test-20261028-155814-7d1bdf34.txt",
+      "nixHash": "sha256-Meh/zGKahvhEI/HzTif70PwtyPkkP3tjTmB52v0BVxI="
+    }
+  ],
+  "behavior": {
+    "scope": "macOS remote canvas with its title bar hidden",
+    "move": "Hold Control+Command and drag inside the picture.",
+    "resize": "Hold Control+Command and drag an edge or corner.",
+    "ordinaryPointer": "Local automatic window movement and resizing are disabled in this mode; ordinary pointer gestures remain available to the remote canvas.",
+    "inputOwnership": "Local window gestures release and suspend canvas input; cancellation and gesture completion recover input state.",
+    "otherModes": "Devices and the visible system title bar retain native window controls.",
+    "help": "Settings and its information panel describe both gestures using the shared translation catalog."
+  },
+  "verification": {
+    "source": "Clean, unchanged final source; archive NAR verified on macOS and Linux.",
+    "package": {
+      "developerIdSignatures": "passed",
+      "notarization": "passed",
+      "stapledTickets": "passed",
+      "extractedZipGatekeeper": "passed",
+      "isolatedBundledHostLoader": "passed",
+      "embeddedTestBuildId": "passed"
+    },
+    "regressions": {
+      "nativeMacWindowGestures": {
+        "passed": 47,
+        "failed": 0,
+        "skipped": 0,
+        "scope": "Actual NSWindow geometry with process-local synthetic NSEvents, including four edges, four corners, movement, geometry limits, modifier release, cancellation, native Devices events, inactive-window activation and a real AppKit fullscreen/normal roundtrip. Includes the stale-callback/rapid-fullscreen-reentry regression.",
+        "validatedSourceRevision": "7d1bdf3477b4227b3e5a002ed7941b4f6a93a2d4"
+      },
+      "ui": {
+        "passed": 31,
+        "failed": 0,
+        "translatedCatalogs": 21
+      },
+      "canvasFocusInput": {
+        "passed": 6,
+        "failed": 0
+      },
+      "compiledTranslationEntries": 18476,
+      "devicePreferences": {
+        "passed": 8,
+        "failed": 0
+      },
+      "sharedCore": "passed",
+      "nativeTestSourceHashesMatchRevision": true,
+      "fullscreenRaceRegression": {
+        "baselineRevision": "9a342a9379d728a8d35e35209c981145fcebf46a",
+        "baselineResult": "Expected failure: two rapid fullscreen cycles lost 64 points of window height.",
+        "finalResult": "Passed; the original outer frame survives stale completion callbacks and rapid re-entry."
+      },
+      "unchangedComponentChecks": {
+        "validatedAtRevision": "9a342a9379d728a8d35e35209c981145fcebf46a",
+        "scope": "UI, canvas input, preferences, compiled translations and shared-core checks; their components are unchanged in the final fullscreen fix."
+      },
+      "packagedTranslationEntries": 18476,
+      "linuxCanonicalBuildAndSmoke": "passed",
+      "linuxAffectedCanvasUiAndCore": "passed"
+    },
+    "uiAutomation": {
+      "ordinaryEdgeDrag": "An ordinary edge drag left the isolated fixture frame unchanged.",
+      "modifierHeldDrag": "Not validated: automation-generated mouse events did not carry the requested modifiers.",
+      "fixtureExited": true,
+      "connectedRemoteInputTested": false,
+      "validatedCandidateRevision": "9a342a9379d728a8d35e35209c981145fcebf46a"
+    },
+    "limitations": [
+      "Physical dragging, pointer capture beyond the window and mixed-DPI monitors are not established by these isolated checks.",
+      "Connected remote streaming, input and latency acceptance remain manual."
+    ]
+  },
+  "publication": {
+    "repository": "keithxc/deskport-test-builds",
+    "visibility": "public",
+    "releaseUrl": "https://github.com/keithxc/deskport-test-builds/releases/tag/test-20261028-155814-7d1bdf34",
+    "prerelease": true,
+    "latest": false,
+    "assetVerification": "GitHub server SHA-256 digest and size; receipt recorded separately. No full-byte download verification."
+  },
+  "rollback": {
+    "macos": {
+      "testId": "test-20261028-185000-39ee3a1b",
+      "releaseUrl": "https://github.com/keithxc/deskport-test-builds/releases/tag/test-20261028-185000-39ee3a1b",
+      "desktopSourceRevision": "39ee3a1b379deef465e2aa97e00bde35b1a89584",
+      "coreRevision": "27caf8317b959da9c240dd5f8843b319d7fa74b7",
+      "zip": {
+        "name": "DeskPort-0.7.6-macos-arm64-test-20261028-185000-39ee3a1b.zip",
+        "size": 96063760,
+        "sha256": "73ac553b89eb3d21e2fdf699246e118b46667659308203639b265c70744fd47c",
+        "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261028-185000-39ee3a1b/DeskPort-0.7.6-macos-arm64-test-20261028-185000-39ee3a1b.zip",
+        "nixHash": "sha256-c6xVO4nrPSHi/faZJG4Ri0ZmdlkwggNjmyZccHRP1Hw="
+      }
+    },
+    "previousConsumerRevision": "2318856b17a197d8ff09212f4202d0b71a5d2ff5"
+  },
+  "unchangedDeliveries": {
+    "linux": {
+      "testId": "test-20261028-203847-a45eb92f",
+      "releaseUrl": "https://github.com/keithxc/deskport-test-builds/releases/tag/test-20261028-203847-a45eb92f",
+      "desktopSourceRevision": "a45eb92fd449216d6968241843885adf9160ffbb",
+      "coreRevision": "27caf8317b959da9c240dd5f8843b319d7fa74b7"
+    },
+    "windows": {
+      "testId": "test-20261028-185000-39ee3a1b",
+      "releaseUrl": "https://github.com/keithxc/deskport-test-builds/releases/tag/test-20261028-185000-39ee3a1b",
+      "desktopSourceRevision": "39ee3a1b379deef465e2aa97e00bde35b1a89584",
+      "coreRevision": "27caf8317b959da9c240dd5f8843b319d7fa74b7"
+    }
+  },
+  "consumerPrebuilds": {
+    "aarch64-darwin": "Recorded separately by the consuming configuration delivery."
+  },
+  "activation": "Manual; no switch, deployed application replacement or service restart is authorized by this record."
+}
