@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261029-e17c8af4",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "e17c8af4145da96472cd9396af59a94585f516c8",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/e17c8af4145da96472cd9396af59a94585f516c8.tar.gz",
+  "sourceNarHash": "sha256-LrAhiYLEz2vZERlwwE5o7SiMoy54KiylFTnhUz/FkUM=",
+  "coreRevision": "866c09547cd47d4b26a0725374e70614cf2845db",
+  "coreNarHash": "sha256-nEVg/YLzfDRbJGfMOa9hbx6USwpAsIBo3t8wKPlL6EQ=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261029-e17c8af4.dmg",
+      "size": 136032677,
+      "sha256": "1f085c195b774e687891fa05814e4670e2cc3d926f728ccbd2e48f0963367864"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261029-e17c8af4.zip",
+      "size": 96076840,
+      "sha256": "d4f19b2343cbd64d7baf6edbb24b27c2b443b10e7dd0fe881aab4a9200b6ad0e"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-build-test-20261029-e17c8af4.json",
+      "size": 848,
+      "sha256": "e276a8438eba31ad1d4578b999d7e06a9d64885db172d4de54d6d6afb74922c4"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261029-e17c8af4.txt",
+      "size": 361,
+      "sha256": "bb55addad9f01bb682bc7da095c5f18a2e24cd2d19e4ba9272b7687d25a21920"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-portable-full-test-20261029-e17c8af4.zip",
+      "size": 56184876,
+      "sha256": "3d73808f54e8d1b14e6be6305fac3a0af96eaabce71e321e23b4d11ca75f85c9"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-setup-full-test-20261029-e17c8af4.exe",
+      "size": 41327631,
+      "sha256": "805751603cda6c0526fe1602816dde79178a0d73b37a9aeb5a38e491b394f693"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-build-test-20261029-e17c8af4.json",
+      "size": 874,
+      "sha256": "457bd1b0b2a109f4abd893655ea680ba798bcc09013c62ecf6f52a3b001dc618"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261029-e17c8af4.txt",
+      "size": 388,
+      "sha256": "568699b1edf1391d763d3583ec88136f123e9d0efab2bda71c7d735469b067ff"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "gatekeeperZipExtract": "passed",
+    "zipNixHash": "sha256-1PGbI0PL1k17r27bsksnwrRDsQ590P6IGqtKkgC2rQ4="
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "isolatedStartup": "passed"
+  },
+  "windows": {
+    "architecture": "x64",
+    "method": "Static MinGW cross build",
+    "status": "built",
+    "packageAudit": "passed"
+  },
+  "separateSourceArchivesUploaded": false,
+  "activation": "Manual; physical streaming and input acceptance remain pending."
+}
