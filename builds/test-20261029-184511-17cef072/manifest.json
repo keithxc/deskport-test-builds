@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.6",
+  "testId": "test-20261029-184511-17cef072",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "17cef07299d973f804db95daa18eda8b1a57588e",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/17cef07299d973f804db95daa18eda8b1a57588e.tar.gz",
+  "sourceNarHash": "sha256-4K6c+efwy+V5espY4aTk/wPKI47bU0TiMJJstLasBg4=",
+  "coreRevision": "866c09547cd47d4b26a0725374e70614cf2845db",
+  "coreNarHash": "sha256-nEVg/YLzfDRbJGfMOa9hbx6USwpAsIBo3t8wKPlL6EQ=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261029-184511-17cef072.dmg",
+      "size": 137504675,
+      "sha256": "7d961adbf950219d810ed8729ba0f87d904e942d3e0487a0cfaf67648eb204a2"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-arm64-test-20261029-184511-17cef072.zip",
+      "size": 96086457,
+      "sha256": "f17b1b3562ab833572550be4c6624e78b5b4e43fef400b639145596583758305"
+    },
+    {
+      "name": "DeskPort-0.7.6-macos-build-test-20261029-184511-17cef072.json",
+      "size": 869,
+      "sha256": "e30cb857d5fc0f23fd7b79086a054fbb703d767f631bcf2ba30046ad20390de0"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261029-184511-17cef072.txt",
+      "size": 382,
+      "sha256": "0d97152633d8a0ffaf3116550be1418ecddc449861642302b6870ed06b4b5753"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-portable-full-test-20261029-184511-17cef072.zip",
+      "size": 56199927,
+      "sha256": "e8d6e1bcb54371a0f31ce7e407df5c4e33dfa407a8ea5dbabb5c417b7b49884a"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-x64-setup-full-test-20261029-184511-17cef072.exe",
+      "size": 41345039,
+      "sha256": "979c6ba85cecbb239fe9b1d7dca1b72840c4c16994d2401f91f23d0ef7f3d22e"
+    },
+    {
+      "name": "DeskPort-0.7.6-windows-build-test-20261029-184511-17cef072.json",
+      "size": 895,
+      "sha256": "6111916f44a0e3f7f3c036306a454cf5034303b6ab4befbd6460c15faab1ec89"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261029-184511-17cef072.txt",
+      "size": 409,
+      "sha256": "035dcc470cc861b63595541d3ffcfbf3539461345dbb07e1b67692c7b9cbba2d"
+    }
+  ],
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "linux": {
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "isolatedStartup": "passed"
+  },
+  "windows": {
+    "status": "built",
+    "packageAudit": "passed"
+  },
+  "ci": {
+    "status": "passed",
+    "sourceRevision": "17cef07299d973f804db95daa18eda8b1a57588e"
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
