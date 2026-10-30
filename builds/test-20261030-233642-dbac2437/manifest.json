@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261030-233642-dbac2437",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "dbac24377e882d00478a54ef0b4a974d3d3fb3de",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/dbac24377e882d00478a54ef0b4a974d3d3fb3de.tar.gz",
+  "sourceNarHash": "sha256-K0duzniAY8L5RldiC7Y8VJwJgigC5QIWHU0y64m5WKs=",
+  "coreRevision": "f54beef6f2f9007aa8a4092d1864fc08bb8f7698",
+  "coreNarHash": "sha256-RGPveRaWAGUYcZb54OUvHBHBXb8jxfPyIScfuwBubCQ=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261030-233642-dbac2437.dmg",
+      "size": 140111138,
+      "sha256": "a2cecab41573d84e8aa10c8f1d1d833928930cc988aa45f51d57f1240ddcda13"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261030-233642-dbac2437.zip",
+      "size": 96107859,
+      "sha256": "f471a3128d6ecc48316c7ed391f8ed4db6c98003fb0400059be1340de5c077f9"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261030-233642-dbac2437.json",
+      "size": 869,
+      "sha256": "311a47d30e07039f59045b8102317937b6a84863755b4c1d6cc070b92340ee12"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261030-233642-dbac2437.txt",
+      "size": 382,
+      "sha256": "5e4cedb19a6a1a49a0b206fbcb42c629078da4e4d751d5977e5d27e9d7f4f81a"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-x64-portable-full-test-20261030-233642-dbac2437.zip",
+      "size": 56214828,
+      "sha256": "f060bfbad3b7eb938703f3890c3286c3369888f441708c428bab11a18af9624e"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-x64-setup-full-test-20261030-233642-dbac2437.exe",
+      "size": 41350956,
+      "sha256": "6791c3126b24d30f5e74fa34bf09849edca3bb5bdf2d79126a70f8f4c0d0aa65"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-build-test-20261030-233642-dbac2437.json",
+      "size": 895,
+      "sha256": "b46ff2e362e674e8ea6ad0af1a5a99237fb02b264e5c4a9b0df2126832addc66"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261030-233642-dbac2437.txt",
+      "size": 409,
+      "sha256": "ad7cc3bdaa23c0108ab851adccaf627dc566c4354614ab57d68a02b45ca33514"
+    }
+  ],
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "linux": {
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "isolatedStartup": "passed"
+  },
+  "windows": {
+    "status": "built",
+    "packageAudit": "passed"
+  },
+  "ci": {
+    "status": "passed",
+    "sourceRevision": "dbac24377e882d00478a54ef0b4a974d3d3fb3de"
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
