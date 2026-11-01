@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261101-143559-ed88f62d",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "ed88f62d1e613e1ed4a67f1c618d29824cdeb11d",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/ed88f62d1e613e1ed4a67f1c618d29824cdeb11d.tar.gz",
+  "sourceNarHash": "sha256-MFCg6xS49TQCg9h2QwvhKWyq3rA7R40/cdAyTUQFaGk=",
+  "coreRevision": "1d02ba187769da7443d8c8833e43f8f5b3b6111c",
+  "coreNarHash": "sha256-3P/teO1Uw32CrSGdd/eu6OD6dJj8jK6UO2Q3zb1GbTo=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261101-143559-ed88f62d.dmg",
+      "size": 137747082,
+      "sha256": "f7a0c7171636d7a3c23bcbd167472bd6ba697cec7e1eac04486f9e99d82d4218"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261101-143559-ed88f62d.zip",
+      "size": 96107477,
+      "sha256": "5d88f737f7fa82e0e52ecab9cf1a62745760f0ae409d1e716b66f56ea70fad6c"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261101-143559-ed88f62d.json",
+      "size": 869,
+      "sha256": "cde23ea6debae8358e8d9270a4686bee8a3e706224ede4f756ff198832687b86"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261101-143559-ed88f62d.txt",
+      "size": 382,
+      "sha256": "9f7321e94d615143346eb328e39769505efcff4394f5a467aa54681967440f9c"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-x64-portable-full-test-20261101-143559-ed88f62d.zip",
+      "size": 56215702,
+      "sha256": "a2eb8dfd9dc0956b1a94a4f8564c43a742dd06924ff0233cd29d1db7ba1dd322"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-x64-setup-full-test-20261101-143559-ed88f62d.exe",
+      "size": 41347207,
+      "sha256": "e27bdfc62d137a9a3dcd5a2060052baa42e0668f5c6c092ca8c02e411b3b2b93"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-build-test-20261101-143559-ed88f62d.json",
+      "size": 895,
+      "sha256": "b51179b53e8fd50adebac6ade4a9a61fd4ab685bf91761e668875b86cfb34db9"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261101-143559-ed88f62d.txt",
+      "size": 409,
+      "sha256": "bb9753cbc97256149dec7c58749efa0873db5b3320d37f2f44eb2679a697df2c"
+    }
+  ],
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "linux": {
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "isolatedStartup": "passed"
+  },
+  "windows": {
+    "status": "built",
+    "packageAudit": "passed"
+  },
+  "ci": {
+    "status": "passed",
+    "sourceRevision": "e69a38f5c0e79b5218df2bf3dfc7c5c9eaa64ba0",
+    "note": "Documentation-only follow-up to the packaged revision; the packaged revision failed only the PC evidence snapshot check."
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
