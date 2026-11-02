@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261103-003132-074c693",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "074c693ba7e86d6efe503c8ea2b52836a74adbb7",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/074c693ba7e86d6efe503c8ea2b52836a74adbb7.tar.gz",
+  "coreRevision": "0b19bbb7841f23e3d27b746a02d6c7459ab5582f",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261103-003132-074c693.dmg",
+      "size": 139937471,
+      "sha256": "830b88d8833a16be1ba1a4fcb2c23deb58742c97dcf2abadc54ccccd7d11e9c1"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261103-003132-074c693.zip",
+      "size": 96130096,
+      "sha256": "d81d8068d4e62b1cdbb6534ae94b4d60219794fcdd7f59fdb89ede2a43261f2b"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261103-003132-074c693.json",
+      "size": 866,
+      "sha256": "559faa3b0160109532fe6b6c9bcd5fdd253a085669599847f3ca65130f1534e4"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261103-003132-074c693.txt",
+      "size": 379,
+      "sha256": "14caa893623db7dc95165067f1e5eb354fda9a5934d6a7fef2d433ac23c1f8dc"
+    }
+  ],
+  "purpose": "Diagnostic macOS host build: data saver without synchronous VideoToolbox frame completion (held-key repeat bisect).",
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
