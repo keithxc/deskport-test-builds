@@ -39,7 +39,9 @@
     "bundledSunshineLoader": "passed",
     "zipNixHash": "sha256-qthxrrMPQb6olSUxadtqaozmiKRVj0zmfTgrp2SoodU=",
     "testBuildIdEmbedded": true,
-    "nativeExpectedFpsAndRateProperties": "passed for H.264 and HEVC"
+    "nativeExpectedFpsAndRateProperties": "passed for H.264 and HEVC",
+    "nixPackageSignatures": "passed",
+    "nixPackageBytesMatchZip": "passed"
   },
   "linux": {
     "architecture": "x86_64",
