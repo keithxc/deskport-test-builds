@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261102-bd12c5d",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "bd12c5d10b23cb6a49e2bd43b1ca89d7a83d4518",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/bd12c5d10b23cb6a49e2bd43b1ca89d7a83d4518.tar.gz",
+  "sourceNarHash": "sha256-qBs/p6+nI+iX3f8lSmgBZDkJiFrjH+FuKhDOVqmnWpk=",
+  "coreRevision": "0b19bbb7841f23e3d27b746a02d6c7459ab5582f",
+  "coreNarHash": "sha256-85ub77mieYwRlxcTWcMzzgvEk4fUcWo+ddYZzCDBPRs=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261102-bd12c5d.dmg",
+      "size": 136720618,
+      "sha256": "1802c5c4523138f7e677820fe166b1aa4481eae4ae613b6dc2863faf1782f57e"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261102-bd12c5d.zip",
+      "size": 96129693,
+      "sha256": "aad871aeb30f41bea895253169db6a6a8ce688a4558f4ce67d382ba764a8a1d5"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261102-bd12c5d.json",
+      "size": 845,
+      "sha256": "f6c1faea8b15fc71098195cc819e331b081ac7eb5f2ba76a0e7998ed29142493"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261102-bd12c5d.txt",
+      "size": 358,
+      "sha256": "9aff962897a9d0f5306abb97326bdbacb7673e434204667befe1aaf2baea9f29"
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "notarized",
+    "developerIdSignatures": "passed",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed",
+    "bundledSunshineLoader": "passed",
+    "zipNixHash": "sha256-qthxrrMPQb6olSUxadtqaozmiKRVj0zmfTgrp2SoodU=",
+    "testBuildIdEmbedded": true,
+    "nativeExpectedFpsAndRateProperties": "passed for H.264 and HEVC"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "method": "Native Nix builds of standalone package and consuming limited wrapper from pinned public source",
+    "rawOutput": "/nix/store/s57azzsqjyj2wwb63f6pjw1b5appq75z-deskport-0.7.7",
+    "isolatedStartup": "passed",
+    "affectedPolicyAndOverlayRegressions": "passed",
+    "status": "built",
+    "output": "/nix/store/5rllhf4gydhl8gamyis4y172b28j6ifa-deskport-0.7.7",
+    "limitedWrapperIsolatedStartup": "passed"
+  },
+  "nativeEncoderRegression": {
+    "scope": "Offline production asynchronous encoder code and pinned native HEVC VideoToolbox, generated desktop resources; no real capture, transport or client presentation.",
+    "dimensions": [
+      2040,
+      1228
+    ],
+    "nativeEncoderKbps": 992,
+    "durationSecondsPerCase": 42,
+    "acceptance": {
+      "sustainedTextPsnrDb": 30,
+      "maxRecoveryMs": 750,
+      "maxEstimatedVideoIpMBPerHour": 300
+    },
+    "matchedResources": {
+      "verifiedEvents": 14,
+      "passedEvents": 14,
+      "maxSustainedRecoveryMs": 19.294,
+      "estimatedVideoIpMBPerHour": 225.6
+    },
+    "seed47ChineseAndTextEdit": {
+      "verifiedEvents": 15,
+      "passedEvents": 15,
+      "maxSustainedRecoveryMs": 19.813,
+      "estimatedVideoIpMBPerHour": 227.37257142857143
+    },
+    "lowBudgetNegativeControl": {
+      "nativeEncoderKbps": 499,
+      "deliveredEvents": 15,
+      "maxFirstOutputMs": 19.407,
+      "passedTextEvents": 8,
+      "verifiedTextEvents": 15,
+      "overallPass": false
+    },
+    "trafficScope": "Estimated IPv4 video datagrams including padding and 20% FEC, minimum parity two; excludes audio/control/VPN/carrier total."
+  },
+  "ci": {
+    "status": "not-run",
+    "note": "Native builds and targeted local tests passed; no GitHub Actions run claimed for this branch commit."
+  },
+  "separateSourceArchivesUploaded": false,
+  "liveAcceptance": "Pending manual activation and live clarity, latency and total-traffic checks."
+}
