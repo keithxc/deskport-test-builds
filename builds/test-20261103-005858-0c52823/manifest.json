@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261103-005858-0c52823",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "0c52823ad45443b427db8fe70102b276fc7342f5",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/0c52823ad45443b427db8fe70102b276fc7342f5.tar.gz",
+  "coreRevision": "0b19bbb7841f23e3d27b746a02d6c7459ab5582f",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261103-005858-0c52823.dmg",
+      "size": 141078468,
+      "sha256": "d2296ab07d865b7e9f2b650523fede4af13ad9a9abb3ccc0ad1fa683d4dfcf4a"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261103-005858-0c52823.zip",
+      "size": 96135466,
+      "sha256": "604b7cdab891b763644ef7050bcab9fbd60864781da9a9f7a7d4c1e612283593"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261103-005858-0c52823.json",
+      "size": 866,
+      "sha256": "a77864b7574fab8fe905ba67d14506f083685d0ebdb060cf72b8a27c6940d115"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261103-005858-0c52823.txt",
+      "size": 379,
+      "sha256": "f82358c33859d9f8d34c8c66ff2d600609cc9ffb71cdd896b241464b54a02389"
+    }
+  ],
+  "purpose": "macOS host test build: desktop input injected by a separate host process.",
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
