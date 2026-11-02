@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261102-145719-4abf3c1",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "4abf3c1884c8b77073df8035deed33abb08ec2de",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/4abf3c1884c8b77073df8035deed33abb08ec2de.tar.gz",
+  "sourceNarHash": "sha256-oKKPW8FSqe1Uj2SC/0CQe15ZhWLkPwifF+MU0+xv6yM=",
+  "coreRevision": "1d02ba187769da7443d8c8833e43f8f5b3b6111c",
+  "coreNarHash": "sha256-3P/teO1Uw32CrSGdd/eu6OD6dJj8jK6UO2Q3zb1GbTo=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261102-145719-4abf3c1.dmg",
+      "size": 138136055,
+      "sha256": "2415dd9d1b77f4c2d74247a173a0468fffbe3cace4fac43a6513b441aa573e0a"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261102-145719-4abf3c1.zip",
+      "size": 96109225,
+      "sha256": "d5e5099b0cc1e7d20ce365b6bbe74eaab287698a7a2120f9e5b1e2a1cfcf7ea4"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261102-145719-4abf3c1.json",
+      "size": 866,
+      "sha256": "ef87af9942c39e0d090ed8d3917bfd3648712daab90910646917ff570b290575"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261102-145719-4abf3c1.txt",
+      "size": 379,
+      "sha256": "30be69a80bdc3784a7ecee1ae6a96db3cecea47d2f9829f859436712ccfa8b9a"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-x64-portable-full-test-20261102-145719-4abf3c1.zip",
+      "size": 56216379,
+      "sha256": "1d28257cbf64d6728e2b08c0b19b06be66be8363c5ce876c5c2960a2cf173caa"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-x64-setup-full-test-20261102-145719-4abf3c1.exe",
+      "size": 41345291,
+      "sha256": "8d52eb2754026e22db531ada47828fc47d522114797f78fa69beef82b9d9971d"
+    },
+    {
+      "name": "DeskPort-0.7.7-windows-build-test-20261102-145719-4abf3c1.json",
+      "size": 892,
+      "sha256": "42c1bd1e78020c391cc661925c2c635777367c8315fa8f8f896825b204ed020d"
+    },
+    {
+      "name": "SHA256SUMS-windows-test-20261102-145719-4abf3c1.txt",
+      "size": 406,
+      "sha256": "1230d3f915b571eeee66aa52e2c7d661dcd1630f13bce2792e61eb456ab9229f"
+    }
+  ],
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "linux": {
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "isolatedStartup": "passed"
+  },
+  "windows": {
+    "status": "built",
+    "packageAudit": "passed"
+  },
+  "ci": {
+    "status": "not-run",
+    "note": "Branch codex/office-data-saver has no CI run; local unit tests passed."
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
