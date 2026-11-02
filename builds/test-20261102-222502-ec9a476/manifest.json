@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 2,
+  "version": "0.7.7",
+  "testId": "test-20261102-222502-ec9a476",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "desktopSourceRevision": "ec9a476dfea9f536e2bb7b6488e7a0382fac3dcc",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/ec9a476dfea9f536e2bb7b6488e7a0382fac3dcc.tar.gz",
+  "sourceNarHash": "sha256-+ESI44fdd+7ntmRn1qwpw2ZatT8WGUgSLyuHZhAyUBA=",
+  "coreRevision": "0b19bbb7841f23e3d27b746a02d6c7459ab5582f",
+  "coreNarHash": "sha256-85ub77mieYwRlxcTWcMzzgvEk4fUcWo+ddYZzCDBPRs=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261102-222502-ec9a476.dmg",
+      "size": 137982151,
+      "sha256": "abd175bcae50a2b5c69af73eb6feb8cfbc283079bc58a0d397eda3324740e8ae"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-arm64-test-20261102-222502-ec9a476.zip",
+      "size": 96129968,
+      "sha256": "866e468dfcddf8bcf7fe8eeb905e7649156cd19eeaa7e579d92ef82abf657ad1"
+    },
+    {
+      "name": "DeskPort-0.7.7-macos-build-test-20261102-222502-ec9a476.json",
+      "size": 866,
+      "sha256": "b9ee15757333094a61700548132124671649fa33f785e1a52f558a26ba2a356d"
+    },
+    {
+      "name": "SHA256SUMS-macos-test-20261102-222502-ec9a476.txt",
+      "size": 379,
+      "sha256": "babcb63056d1d04a21dc8198241bc55099f5ee2711fdce23f8cce602c71d5310"
+    }
+  ],
+  "macOS": {
+    "status": "notarized",
+    "appAndDmgTickets": "stapled-and-validated",
+    "extractedZipGatekeeper": "passed"
+  },
+  "linux": {
+    "method": "Native Nix build from the pinned public archive",
+    "status": "built",
+    "isolatedStartup": "passed"
+  },
+  "ci": {
+    "status": "not-run",
+    "note": "Branch codex/office-data-saver has no CI run; the CI overlay and VT clock/picture-quality tests passed locally."
+  },
+  "liveAcceptance": "Not established by package or configuration builds."
+}
