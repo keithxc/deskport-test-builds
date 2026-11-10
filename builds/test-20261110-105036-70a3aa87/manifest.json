@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 3,
+  "testId": "test-20261110-105036-70a3aa87",
+  "version": "0.7.8",
+  "purpose": "Client-driven keyboard repeat; update both desktop client and bundled host",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "70a3aa87e6d89726458e6fdcc70bbb690f94fce5",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/70a3aa87e6d89726458e6fdcc70bbb690f94fce5.tar.gz",
+  "sourceNarHash": "sha256-RiptaYcPMcAZTlJPyVWrp23uJrt6k5yDM3VnvH6p+IE=",
+  "sourceLockSha256": "f41d9569c78736559b223681a0f1498307194515668e4105eb99ec6689e03aa7",
+  "coreRevision": "f75afe8da4d0f109330aa34b7aea1273565756fc",
+  "coreNarHash": "sha256-+ROtUAp6S9UdtuyX/zLuONJqtrLTn0FzL5LgOJnNLfs=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.8-macos-arm64-test-20261110-105036-70a3aa87.zip",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261110-105036-70a3aa87/DeskPort-0.7.8-macos-arm64-test-20261110-105036-70a3aa87.zip",
+      "size": 96198561,
+      "sha256": "f7ec45b6e20f009c0ec84a4ffc2d77afb9dfc300ab489725c0284e420392b740",
+      "nixHash": "sha256-9+xFtuIPAJwOyEpP/C13r7nfwwCrSJclwChOQgOSt0A="
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "Developer ID signed, notarized and stapled; ZIP extraction Gatekeeper and isolated bundled host loader passed",
+    "build": "bash scripts/build.sh package --target macos --distribution",
+    "testBuildId": "test-20261110-105036-70a3aa87"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "delivery": "Native Nix build from immutable source archive",
+    "output": "/nix/store/z442js7675i9fb74byqblxr5js5a8agb-deskport-0.7.8"
+  },
+  "regressions": {
+    "test-key-repeat.py": "Passed on macOS arm64 and NixOS x86_64",
+    "test-input-process.py": "Passed on macOS arm64 and NixOS x86_64"
+  },
+  "activation": "Manual; physical streaming and live input acceptance were not performed",
+  "rollback": {
+    "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/8862057a1b1fbf49993cb0993c5aa4375a774b85.tar.gz",
+    "macOSZipUrl": "https://github.com/keithxc/deskport/releases/download/v0.7.8/DeskPort-0.7.8-macos-arm64.zip",
+    "macOSZipHash": "sha256-MqPgJzKqKlpcCtR3lik8emCUdVccPznzmRzNddZ/Sic="
+  }
+}
