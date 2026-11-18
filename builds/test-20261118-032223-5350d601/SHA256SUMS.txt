@@ -1,0 +1,1 @@
+a3a2137ce171ed7aecdcca5f35a8a6767a80bef8b9d84aac69d4bb32c4655373  DeskPort-0.7.8-macos-arm64-test-20261118-032223-5350d601.zip

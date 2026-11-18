@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 3,
+  "testId": "test-20261118-032223-5350d601",
+  "version": "0.7.8",
+  "purpose": "Integrated desktop session, display, input, stream policy and lifecycle updates",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "5350d6017904b40cb12404ac20e7645e88169350",
+  "sourceArchiveUrl": "https://codeload.github.com/keithxc/deskport/tar.gz/5350d6017904b40cb12404ac20e7645e88169350",
+  "sourceNarHash": "sha256-L0dI9LvXIwa+7yxVKJ0rgFa+k39CX58VmtJTEYysuQw=",
+  "sourceLockSha256": "4f7265b11294008d47328e1bf48b80226225ca3cf5a5339dcf8fac2555564171",
+  "coreRevision": "44f228995f23435d2aa93b661d2f105d3664b338",
+  "coreNarHash": "sha256-aLwlL7zG2rProhMkPWAajT9+XrbnZu/9VQ3KvVYnt6A=",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.8-macos-arm64-test-20261118-032223-5350d601.zip",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261118-032223-5350d601/DeskPort-0.7.8-macos-arm64-test-20261118-032223-5350d601.zip",
+      "size": 96265928,
+      "sha256": "a3a2137ce171ed7aecdcca5f35a8a6767a80bef8b9d84aac69d4bb32c4655373",
+      "nixHash": "sha256-o6ITfOFx7Xrs3MpfNaimdnqAvvi52EqsadS7MsRlU3M="
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "Developer ID signatures, app and DMG notarization, stapled tickets, extracted ZIP Gatekeeper and isolated bundled host loader passed",
+    "testBuildId": "test-20261118-032223-5350d601"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "delivery": "Native Nix build from immutable source archive",
+    "status": "Immutable archive consumer built natively with bounded compiler resources; isolated CLI startup passed",
+    "managedCheckoutOutput": "/nix/store/d7a0yfdi3p7dfp8kc43mb5dv4mf2cvav-deskport-0.7.8",
+    "output": "/nix/store/fmmdl8vznkjhvhka4bs6h475a0mh3jc4-deskport-0.7.8",
+    "buildVariant": "Nix consumer applies CPU affinity, nice priority and four compiler jobs; source and pinned core unchanged"
+  },
+  "regressions": {
+    "sessionOwnership": "22 native session checks passed",
+    "shutdown": "ASan/UBSan production-path contracts passed with current and jthread-disabled libc++ fixtures",
+    "qml": "Native focus navigation tests at 640/1120 and DPR1/2 passed",
+    "processCleanup": "Five native Linux supervisor exit and descendant cleanup cases passed",
+    "buildWorkflow": "46 native Linux tests passed",
+    "browser": "71 Chromium checks passed",
+    "displayWorkflow": "Complete macOS Display control workflow passed;184 binding checks,35 lifecycle checks with13 platform skips, shutdown/topology/recovery passed",
+    "linuxStreamingWorkflow": "Complete native Linux smart streaming and translations workflow step passed;184 binding checks, zero failures",
+    "pictureQuality": "Production setter and real bitrate adapter with narrow C API doubles passed on macOS andLinux"
+  },
+  "activation": "Manual Nix activation. This package has not completed live streaming and input acceptance.",
+  "rollback": {
+    "mynixRevision": "49a8b8ddc455fc8e782291a9abf6ae49a75aa3b1",
+    "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/70a3aa87e6d89726458e6fdcc70bbb690f94fce5.tar.gz",
+    "macOSZipUrl": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261118-085740-b503d1f4/DeskPort-0.7.8-macos-arm64-test-20261118-085740-b503d1f4.zip",
+    "macOSZipHash": "sha256-Sdghq+eS6i/nfcU4qMgmPmv9zV2dOHOZWIMaQun1vdA="
+  },
+  "verificationRevision": "c02faf057d3a3fdd0b1b568ebbf122ba52086cb7",
+  "verificationRevisionScope": "Test fixtures only; all production and packaging inputs are identical to sourceRevision."
+}
