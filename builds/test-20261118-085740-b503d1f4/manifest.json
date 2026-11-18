@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 3,
+  "testId": "test-20261118-085740-b503d1f4",
+  "version": "0.7.8",
+  "purpose": "macOS streaming session shutdown and packet sender lifetime fix",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "b503d1f4e6027afe849edcd7e0bf7213f2c29d63",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/b503d1f4e6027afe849edcd7e0bf7213f2c29d63.tar.gz",
+  "sourceLockSha256": "f41d9569c78736559b223681a0f1498307194515668e4105eb99ec6689e03aa7",
+  "coreRevision": "f75afe8da4d0f109330aa34b7aea1273565756fc",
+  "assets": [
+    {
+      "name": "DeskPort-0.7.8-macos-arm64-test-20261118-085740-b503d1f4.zip",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261118-085740-b503d1f4/DeskPort-0.7.8-macos-arm64-test-20261118-085740-b503d1f4.zip",
+      "size": 96202822,
+      "sha256": "49d821abe792ea2fe77dc538a8c8263e6bfdcd5d9d38739958831a42e9f5bdd0",
+      "nixHash": "sha256-Sdghq+eS6i/nfcU4qMgmPmv9zV2dOHOZWIMaQun1vdA="
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "Developer ID signed, notarized and stapled; extracted ZIP Gatekeeper and isolated bundled host loader passed",
+    "testBuildId": "test-20261118-085740-b503d1f4",
+    "helperSha256": "bbc0ea93d9340b1770a923e728a27c2d9cbfc64987130ce0d65fa451e8be7383"
+  },
+  "regressions": {
+    "macOSSessionShutdown": "Production-path shutdown, overlap, queued packet, dequeue contention and expired mailbox checks pass with ASan, UBSan and TSan"
+  },
+  "activation": "Manual Nix activation; installed live acceptance follows activation.",
+  "rollback": {
+    "macOSZipUrl": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261110-105036-70a3aa87/DeskPort-0.7.8-macos-arm64-test-20261110-105036-70a3aa87.zip",
+    "macOSZipHash": "sha256-9+xFtuIPAJwOyEpP/C13r7nfwwCrSJclwChOQgOSt0A="
+  }
+}
