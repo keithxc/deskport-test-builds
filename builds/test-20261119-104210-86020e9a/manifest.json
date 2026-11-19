@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 4,
+  "testId": "test-20261119-104210-86020e9a",
+  "version": "2.0.0",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "86020e9ab98775496ae99ed6f17940d164b21e2e",
+  "sourceArchiveUrl": "https://codeload.github.com/keithxc/deskport/tar.gz/86020e9ab98775496ae99ed6f17940d164b21e2e",
+  "sourceNarHash": "sha256-ud6lYXKxb6bnrVfVSfkiJN6ET99sd3yoHDJJqzZUYgk=",
+  "sourceLockSha256": "82e2fe477f2a64c6adf2fa894a2919d9824ae8578a5f28f9c515d3457ed91611",
+  "coreRevision": "49c13048b9e91b8638335a87d20cf9c545039b6d",
+  "coreNarHash": "sha256-jxdMRnoyZtWXQHXmGhLeIbmst4Bsm16Hv4I5CY49R+M=",
+  "effectiveBuildTree": "746605b05a524540a202eca687533aafd5929694",
+  "versionOverrides": [
+    {
+      "path": "app/version.txt",
+      "expected": "0.7.8\n",
+      "replacement": "2.0.0\n"
+    },
+    {
+      "path": "flake.nix",
+      "expected": "version = \"0.7.8\";",
+      "replacement": "version = \"2.0.0\";"
+    }
+  ],
+  "assets": [
+    {
+      "name": "DeskPort-2.0.0-macos-arm64-test-20261119-104210-86020e9a.zip",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261119-104210-86020e9a/DeskPort-2.0.0-macos-arm64-test-20261119-104210-86020e9a.zip",
+      "size": 96266640,
+      "sha256": "6c07ebef28f4472c7d22d5d824daf8b20f2088c2f786889a3fb9327fa58c1134",
+      "nixHash": "sha256-bAfr7yj0Ryx9ItXYJNr4sg8giML3hoiaP7kyf6WMETQ="
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "Developer ID signatures, app and DMG notarization, stapled tickets, extracted ZIP Gatekeeper and isolated bundled host loader passed",
+    "testBuildId": "test-20261119-104210-86020e9a"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "delivery": "Native Nix build from the immutable source archive with the recorded version override",
+    "status": "Native derivation and isolated CLI checks passed"
+  },
+  "verification": {
+    "desktopPolicy": "71,068 differential cases and 1,029,351 field comparisons passed",
+    "sourceCI": "Linux build, Windows source checks and display contracts passed at the public source revision"
+  },
+  "activation": "Manual macOS and NixOS activation. Physical streaming and input are a separate verification step."
+}
