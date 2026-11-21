@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 4,
+  "testId": "test-20261121-062654-14bd37df",
+  "version": "2.9.0",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "14bd37df3c7876dc4654a9c4ca6058b731f17b14",
+  "sourceArchiveUrl": "https://codeload.github.com/keithxc/deskport/tar.gz/14bd37df3c7876dc4654a9c4ca6058b731f17b14",
+  "sourceNarHash": "sha256-tMLx7HcnLVl+wFgXIeiINQ/XEmEaHdw9vCfKdezhf7k=",
+  "sourceLockSha256": "82e2fe477f2a64c6adf2fa894a2919d9824ae8578a5f28f9c515d3457ed91611",
+  "coreRevision": "49c13048b9e91b8638335a87d20cf9c545039b6d",
+  "coreNarHash": "sha256-jxdMRnoyZtWXQHXmGhLeIbmst4Bsm16Hv4I5CY49R+M=",
+  "assets": [
+    {
+      "name": "DeskPort-2.9.0-macos-arm64-test-20261121-062654-14bd37df.zip",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261121-062654-14bd37df/DeskPort-2.9.0-macos-arm64-test-20261121-062654-14bd37df.zip",
+      "size": 96268968,
+      "sha256": "ab2ba968f5b93673def5c9533795e4dd6b7af05cb9c94c4d815749df97cac192",
+      "nixHash": "sha256-qyupaPW5NnPe9clTN5Xk3Wt68Fy5yUxNgVdJ35fKwZI="
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "status": "Developer ID signatures, app and DMG notarization, stapled tickets, extracted ZIP Gatekeeper and isolated bundled host loader passed",
+    "testBuildId": "test-20261121-062654-14bd37df"
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "delivery": "Native Nix build from the immutable source archive",
+    "status": "Pending full NixOS configuration prebuild verification"
+  },
+  "verification": {
+    "unitTests": "test-apply-host-patches.py, test-host-cadence-overlay.py, smart-stream, test-canvas-input.py, test-canvas-focus.py and check-pc-support.py passed"
+  },
+  "activation": "Manual macOS and NixOS activation. Physical streaming and mouse latency acceptance are a separate verification step."
+}

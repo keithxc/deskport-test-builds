@@ -1,0 +1,2 @@
+e8e500476f2e207964f48f2b079d3d99ebc90902de5cc1d435077ff4da4f9bc1  DeskPort-2.9.0-windows-x64-portable-full-test-20261121-062654-14bd37df.zip
+3f58eecfd3716a2b8b71f4baf29ecc54231991d5e1f40b07629d5ab7f6a074fd  DeskPort-2.9.0-windows-x64-setup-full-test-20261121-062654-14bd37df.exe

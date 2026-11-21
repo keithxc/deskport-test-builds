@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "testId": "test-20261121-062654-14bd37df",
+  "version": "2.9.0",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "14bd37df3c7876dc4654a9c4ca6058b731f17b14",
+  "coreRevision": "49c13048b9e91b8638335a87d20cf9c545039b6d",
+  "sourceLockSha256": "82e2fe477f2a64c6adf2fa894a2919d9824ae8578a5f28f9c515d3457ed91611",
+  "architecture": "x86_64",
+  "assets": [
+    {
+      "name": "DeskPort-2.9.0-windows-x64-portable-full-test-20261121-062654-14bd37df.zip",
+      "size": 56381734,
+      "sha256": "e8e500476f2e207964f48f2b079d3d99ebc90902de5cc1d435077ff4da4f9bc1",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261121-062654-14bd37df/DeskPort-2.9.0-windows-x64-portable-full-test-20261121-062654-14bd37df.zip"
+    },
+    {
+      "name": "DeskPort-2.9.0-windows-x64-setup-full-test-20261121-062654-14bd37df.exe",
+      "size": 41483341,
+      "sha256": "3f58eecfd3716a2b8b71f4baf29ecc54231991d5e1f40b07629d5ab7f6a074fd",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261121-062654-14bd37df/DeskPort-2.9.0-windows-x64-setup-full-test-20261121-062654-14bd37df.exe"
+    }
+  ],
+  "deskPortExeSha256": "5df059ca8b4e3b3036c94846da49eb8bfb63d695ab3a232089a411248a9cee04",
+  "verification": [
+    "DeskPort.exe PE file and product version are 2.9.0.",
+    "Setup, generated uninstaller, and extracted payload and plugin PE files passed the package audit.",
+    "ZIP and installer payloads match except for portable.dat."
+  ]
+}
