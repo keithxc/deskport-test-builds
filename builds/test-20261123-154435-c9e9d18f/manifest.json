@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 4,
+  "testId": "test-20261123-154435-c9e9d18f",
+  "version": "2.9.1",
+  "sourceRepository": "https://github.com/keithxc/deskport",
+  "sourceRevision": "c9e9d18f96072d7939d1bbe0238c233c8cac1250",
+  "sourceArchiveUrl": "https://github.com/keithxc/deskport/archive/c9e9d18f96072d7939d1bbe0238c233c8cac1250.tar.gz",
+  "sourceNarHash": "sha256-Y4KvtN78XvBouGErE9C1mhpgJ6TLFcsMK7afs/+U1Hc=",
+  "sourceLockSha256": "82e2fe477f2a64c6adf2fa894a2919d9824ae8578a5f28f9c515d3457ed91611",
+  "coreRevision": "49c13048b9e91b8638335a87d20cf9c545039b6d",
+  "coreNarHash": "sha256-jxdMRnoyZtWXQHXmGhLeIbmst4Bsm16Hv4I5CY49R+M=",
+  "assets": [
+    {
+      "name": "DeskPort-2.9.1-macos-arm64.zip",
+      "url": "https://github.com/keithxc/deskport-test-builds/releases/download/test-20261123-154435-c9e9d18f/DeskPort-2.9.1-macos-arm64.zip",
+      "size": 96315138,
+      "sha256": "393ad124fa3b47c5a1ccc6dec61e4857b005fa38d0aae4faadb65d64b7889719",
+      "nixHash": "sha256-OTrRJPo7R8WhzMbexh5IV7AF+jjQquT6rbZdZLeIlxk="
+    }
+  ],
+  "macOS": {
+    "architecture": "arm64",
+    "testBuildId": "test-20261123-154435-c9e9d18f",
+    "verification": "Developer ID signatures, app and disk image notarization, stapled tickets and Gatekeeper after ZIP extraction passed."
+  },
+  "linux": {
+    "architecture": "x86_64",
+    "method": "Native Nix build from the pinned source archive",
+    "output": "/nix/store/vm74hl4saqjrrg9phk6jhk40yd0wg3m3-deskport-2.9.1",
+    "verification": "Native host patch overlay tests and isolated CLI startup check passed."
+  },
+  "previousDesktopSource": "61cda776895cf81cb0b9436f7cdd6d48da478330",
+  "previousMacOSRelease": "test-20261123-130600-61cda776"
+}
